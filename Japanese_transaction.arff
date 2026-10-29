@@ -1,0 +1,1489 @@
+% Japanese recipes transformed into transaction format
+@RELATION Japanese_transaction
+
+@ATTRIBUTE '1% low-fat milk' {no,yes}
+@ATTRIBUTE 'a-1 steak sauce' {no,yes}
+@ATTRIBUTE 'accent seasoning' {no,yes}
+@ATTRIBUTE 'adzuki bean' {no,yes}
+@ATTRIBUTE 'agave nectar' {no,yes}
+@ATTRIBUTE 'ahi tuna steak' {no,yes}
+@ATTRIBUTE 'alfalfa sprout' {no,yes}
+@ATTRIBUTE 'all-purpose flour' {no,yes}
+@ATTRIBUTE 'almond' {no,yes}
+@ATTRIBUTE 'apple' {no,yes}
+@ATTRIBUTE 'apple cider vinegar' {no,yes}
+@ATTRIBUTE 'apple juice' {no,yes}
+@ATTRIBUTE 'applesauce' {no,yes}
+@ATTRIBUTE 'apricot gelatin' {no,yes}
+@ATTRIBUTE 'apricot nectar' {no,yes}
+@ATTRIBUTE 'arrowroot starch noodle' {no,yes}
+@ATTRIBUTE 'artificial sweetener' {no,yes}
+@ATTRIBUTE 'arugula' {no,yes}
+@ATTRIBUTE 'asian fish sauce' {no,yes}
+@ATTRIBUTE 'asian-style dressing' {no,yes}
+@ATTRIBUTE 'asparagus' {no,yes}
+@ATTRIBUTE 'aubergine' {no,yes}
+@ATTRIBUTE 'avocado' {no,yes}
+@ATTRIBUTE 'avocado oil' {no,yes}
+@ATTRIBUTE 'baby carrot' {no,yes}
+@ATTRIBUTE 'baby portabella mushroom' {no,yes}
+@ATTRIBUTE 'baby spinach' {no,yes}
+@ATTRIBUTE 'baby spinach leaf' {no,yes}
+@ATTRIBUTE 'bacon' {no,yes}
+@ATTRIBUTE 'baked potato' {no,yes}
+@ATTRIBUTE 'baking powder' {no,yes}
+@ATTRIBUTE 'baking soda' {no,yes}
+@ATTRIBUTE 'balsamic vinegar' {no,yes}
+@ATTRIBUTE 'bamboo shoot' {no,yes}
+@ATTRIBUTE 'bamboo skewer' {no,yes}
+@ATTRIBUTE 'bamboo stick' {no,yes}
+@ATTRIBUTE 'banana' {no,yes}
+@ATTRIBUTE 'barbecue sauce' {no,yes}
+@ATTRIBUTE 'barley malt syrup' {no,yes}
+@ATTRIBUTE 'basil' {no,yes}
+@ATTRIBUTE 'basil leaf' {no,yes}
+@ATTRIBUTE 'basmati rice' {no,yes}
+@ATTRIBUTE 'bay leaf' {no,yes}
+@ATTRIBUTE 'bean sprout' {no,yes}
+@ATTRIBUTE 'beef' {no,yes}
+@ATTRIBUTE 'beef bouillon' {no,yes}
+@ATTRIBUTE 'beef broth' {no,yes}
+@ATTRIBUTE 'beef gravy' {no,yes}
+@ATTRIBUTE 'beef sirloin' {no,yes}
+@ATTRIBUTE 'beef sirloin steak' {no,yes}
+@ATTRIBUTE 'beef steak' {no,yes}
+@ATTRIBUTE 'beef stew meat' {no,yes}
+@ATTRIBUTE 'beef stock' {no,yes}
+@ATTRIBUTE 'bell pepper' {no,yes}
+@ATTRIBUTE 'black bean' {no,yes}
+@ATTRIBUTE 'black bean sauce' {no,yes}
+@ATTRIBUTE 'black mustard seed' {no,yes}
+@ATTRIBUTE 'black pepper' {no,yes}
+@ATTRIBUTE 'black sesame seed' {no,yes}
+@ATTRIBUTE 'black vinegar' {no,yes}
+@ATTRIBUTE 'blueberry pie filling' {no,yes}
+@ATTRIBUTE 'boiling water' {no,yes}
+@ATTRIBUTE 'bok choy' {no,yes}
+@ATTRIBUTE 'bonito flake' {no,yes}
+@ATTRIBUTE 'bouillon cube' {no,yes}
+@ATTRIBUTE 'breadcrumb' {no,yes}
+@ATTRIBUTE 'brewed coffee' {no,yes}
+@ATTRIBUTE 'broccoli' {no,yes}
+@ATTRIBUTE 'broccoli floret' {no,yes}
+@ATTRIBUTE 'brown basmati rice' {no,yes}
+@ATTRIBUTE 'brown mustard' {no,yes}
+@ATTRIBUTE 'brown rice' {no,yes}
+@ATTRIBUTE 'brown rice flour' {no,yes}
+@ATTRIBUTE 'brown rice syrup' {no,yes}
+@ATTRIBUTE 'brown rice vinegar' {no,yes}
+@ATTRIBUTE 'brown sugar' {no,yes}
+@ATTRIBUTE 'buckwheat groat' {no,yes}
+@ATTRIBUTE 'burdock root' {no,yes}
+@ATTRIBUTE 'butter' {no,yes}
+@ATTRIBUTE 'buttermilk' {no,yes}
+@ATTRIBUTE 'button mushroom' {no,yes}
+@ATTRIBUTE 'cabbage' {no,yes}
+@ATTRIBUTE 'cabbage leaf' {no,yes}
+@ATTRIBUTE 'cake flour' {no,yes}
+@ATTRIBUTE 'candied ginger' {no,yes}
+@ATTRIBUTE 'canola oil' {no,yes}
+@ATTRIBUTE 'capellini pasta' {no,yes}
+@ATTRIBUTE 'caramel sauce' {no,yes}
+@ATTRIBUTE 'cardamom pod' {no,yes}
+@ATTRIBUTE 'carrot' {no,yes}
+@ATTRIBUTE 'cashew' {no,yes}
+@ATTRIBUTE 'caster sugar' {no,yes}
+@ATTRIBUTE 'catsup' {no,yes}
+@ATTRIBUTE 'cauliflower' {no,yes}
+@ATTRIBUTE 'cayenne' {no,yes}
+@ATTRIBUTE 'cayenne pepper' {no,yes}
+@ATTRIBUTE 'celery' {no,yes}
+@ATTRIBUTE 'celery rib' {no,yes}
+@ATTRIBUTE 'cellophane noodle' {no,yes}
+@ATTRIBUTE 'center-cut pork chop' {no,yes}
+@ATTRIBUTE 'center-cut salmon fillet' {no,yes}
+@ATTRIBUTE 'champagne' {no,yes}
+@ATTRIBUTE 'champagne vinegar' {no,yes}
+@ATTRIBUTE 'cherry tomato' {no,yes}
+@ATTRIBUTE 'chicken' {no,yes}
+@ATTRIBUTE 'chicken bouillon' {no,yes}
+@ATTRIBUTE 'chicken bouillon cube' {no,yes}
+@ATTRIBUTE 'chicken bouillon powder' {no,yes}
+@ATTRIBUTE 'chicken breast' {no,yes}
+@ATTRIBUTE 'chicken breast fillet' {no,yes}
+@ATTRIBUTE 'chicken broth' {no,yes}
+@ATTRIBUTE 'chicken cutlet' {no,yes}
+@ATTRIBUTE 'chicken drumstick' {no,yes}
+@ATTRIBUTE 'chicken fillet' {no,yes}
+@ATTRIBUTE 'chicken liver' {no,yes}
+@ATTRIBUTE 'chicken part' {no,yes}
+@ATTRIBUTE 'chicken piece' {no,yes}
+@ATTRIBUTE 'chicken soup base' {no,yes}
+@ATTRIBUTE 'chicken stock' {no,yes}
+@ATTRIBUTE 'chicken stock powder' {no,yes}
+@ATTRIBUTE 'chicken tenderloin' {no,yes}
+@ATTRIBUTE 'chicken tenders' {no,yes}
+@ATTRIBUTE 'chicken thigh' {no,yes}
+@ATTRIBUTE 'chicken thigh fillet' {no,yes}
+@ATTRIBUTE 'chicken wing' {no,yes}
+@ATTRIBUTE 'chickpea' {no,yes}
+@ATTRIBUTE 'chili' {no,yes}
+@ATTRIBUTE 'chili flake' {no,yes}
+@ATTRIBUTE 'chili oil' {no,yes}
+@ATTRIBUTE 'chili paste' {no,yes}
+@ATTRIBUTE 'chili paste with garlic' {no,yes}
+@ATTRIBUTE 'chili powder' {no,yes}
+@ATTRIBUTE 'chili sauce' {no,yes}
+@ATTRIBUTE 'chili-garlic sauce' {no,yes}
+@ATTRIBUTE 'chinese cabbage' {no,yes}
+@ATTRIBUTE 'chinese egg noodle' {no,yes}
+@ATTRIBUTE 'chinese five spice powder' {no,yes}
+@ATTRIBUTE 'chinese noodle' {no,yes}
+@ATTRIBUTE 'chinese red rice vinegar' {no,yes}
+@ATTRIBUTE 'chive' {no,yes}
+@ATTRIBUTE 'chocolate syrup' {no,yes}
+@ATTRIBUTE 'chunk ginger' {no,yes}
+@ATTRIBUTE 'cider vinegar' {no,yes}
+@ATTRIBUTE 'cinnamon' {no,yes}
+@ATTRIBUTE 'clam juice' {no,yes}
+@ATTRIBUTE 'clear honey' {no,yes}
+@ATTRIBUTE 'club soda' {no,yes}
+@ATTRIBUTE 'coarse salt' {no,yes}
+@ATTRIBUTE 'coarse sea salt' {no,yes}
+@ATTRIBUTE 'coarse sugar' {no,yes}
+@ATTRIBUTE 'coconut' {no,yes}
+@ATTRIBUTE 'coconut milk' {no,yes}
+@ATTRIBUTE 'cod fish fillet' {no,yes}
+@ATTRIBUTE 'coffee extract' {no,yes}
+@ATTRIBUTE 'cola' {no,yes}
+@ATTRIBUTE 'condensed beef broth' {no,yes}
+@ATTRIBUTE 'confectioners\' sugar' {no,yes}
+@ATTRIBUTE 'cooking oil' {no,yes}
+@ATTRIBUTE 'cooking sherry' {no,yes}
+@ATTRIBUTE 'cooking spray' {no,yes}
+@ATTRIBUTE 'cooking wine' {no,yes}
+@ATTRIBUTE 'coriander' {no,yes}
+@ATTRIBUTE 'coriander leaf' {no,yes}
+@ATTRIBUTE 'coriander seed' {no,yes}
+@ATTRIBUTE 'coriander stem' {no,yes}
+@ATTRIBUTE 'corn' {no,yes}
+@ATTRIBUTE 'corn oil' {no,yes}
+@ATTRIBUTE 'cornflour' {no,yes}
+@ATTRIBUTE 'cornstarch' {no,yes}
+@ATTRIBUTE 'cottage cheese' {no,yes}
+@ATTRIBUTE 'country-style pork rib' {no,yes}
+@ATTRIBUTE 'crab meat' {no,yes}
+@ATTRIBUTE 'crab stick' {no,yes}
+@ATTRIBUTE 'cracker crumb' {no,yes}
+@ATTRIBUTE 'cranberry juice' {no,yes}
+@ATTRIBUTE 'cream' {no,yes}
+@ATTRIBUTE 'cream cheese' {no,yes}
+@ATTRIBUTE 'cream of tartar' {no,yes}
+@ATTRIBUTE 'cream sherry' {no,yes}
+@ATTRIBUTE 'crusty roll' {no,yes}
+@ATTRIBUTE 'cucumber' {no,yes}
+@ATTRIBUTE 'cumin' {no,yes}
+@ATTRIBUTE 'cumin seed' {no,yes}
+@ATTRIBUTE 'curry' {no,yes}
+@ATTRIBUTE 'curry powder' {no,yes}
+@ATTRIBUTE 'daikon radish' {no,yes}
+@ATTRIBUTE 'dark brown sugar' {no,yes}
+@ATTRIBUTE 'dark molasses' {no,yes}
+@ATTRIBUTE 'dark rum' {no,yes}
+@ATTRIBUTE 'dark sesame oil' {no,yes}
+@ATTRIBUTE 'dark soy sauce' {no,yes}
+@ATTRIBUTE 'dashi' {no,yes}
+@ATTRIBUTE 'dashi powder' {no,yes}
+@ATTRIBUTE 'dashi stock' {no,yes}
+@ATTRIBUTE 'dijon mustard' {no,yes}
+@ATTRIBUTE 'dill pickle' {no,yes}
+@ATTRIBUTE 'dill weed' {no,yes}
+@ATTRIBUTE 'dried black mushroom' {no,yes}
+@ATTRIBUTE 'dried breadcrumb' {no,yes}
+@ATTRIBUTE 'dried chili' {no,yes}
+@ATTRIBUTE 'dried chili flake' {no,yes}
+@ATTRIBUTE 'dried chinese mushroom' {no,yes}
+@ATTRIBUTE 'dried herb' {no,yes}
+@ATTRIBUTE 'dried kelp' {no,yes}
+@ATTRIBUTE 'dried onion' {no,yes}
+@ATTRIBUTE 'dried red chili' {no,yes}
+@ATTRIBUTE 'dried seaweed flake' {no,yes}
+@ATTRIBUTE 'dried shiitake mushroom' {no,yes}
+@ATTRIBUTE 'dried shrimp' {no,yes}
+@ATTRIBUTE 'dry mustard' {no,yes}
+@ATTRIBUTE 'dry parmesan cheese' {no,yes}
+@ATTRIBUTE 'dry red pepper' {no,yes}
+@ATTRIBUTE 'dry red wine' {no,yes}
+@ATTRIBUTE 'dry sherry' {no,yes}
+@ATTRIBUTE 'dry white wine' {no,yes}
+@ATTRIBUTE 'dumpling wrapper' {no,yes}
+@ATTRIBUTE 'edamame' {no,yes}
+@ATTRIBUTE 'eel' {no,yes}
+@ATTRIBUTE 'egg' {no,yes}
+@ATTRIBUTE 'egg noodle' {no,yes}
+@ATTRIBUTE 'egg roll wrap' {no,yes}
+@ATTRIBUTE 'egg white' {no,yes}
+@ATTRIBUTE 'egg yolk' {no,yes}
+@ATTRIBUTE 'eggplant' {no,yes}
+@ATTRIBUTE 'english cucumber' {no,yes}
+@ATTRIBUTE 'english mustard' {no,yes}
+@ATTRIBUTE 'english seedless cucumber' {no,yes}
+@ATTRIBUTE 'enoki mushroom' {no,yes}
+@ATTRIBUTE 'evaporated milk' {no,yes}
+@ATTRIBUTE 'extra firm tofu' {no,yes}
+@ATTRIBUTE 'extra virgin olive oil' {no,yes}
+@ATTRIBUTE 'fat-free half-and-half' {no,yes}
+@ATTRIBUTE 'fat-free low-sodium chicken broth' {no,yes}
+@ATTRIBUTE 'fat-free sour cream' {no,yes}
+@ATTRIBUTE 'fat-free yogurt' {no,yes}
+@ATTRIBUTE 'fennel bulb' {no,yes}
+@ATTRIBUTE 'fermented black bean' {no,yes}
+@ATTRIBUTE 'filet of beef' {no,yes}
+@ATTRIBUTE 'filtered water' {no,yes}
+@ATTRIBUTE 'fire oil' {no,yes}
+@ATTRIBUTE 'firm tofu' {no,yes}
+@ATTRIBUTE 'fish' {no,yes}
+@ATTRIBUTE 'fish cake' {no,yes}
+@ATTRIBUTE 'fish fillet' {no,yes}
+@ATTRIBUTE 'fish sauce' {no,yes}
+@ATTRIBUTE 'flour' {no,yes}
+@ATTRIBUTE 'flour tortilla' {no,yes}
+@ATTRIBUTE 'fried egg' {no,yes}
+@ATTRIBUTE 'fried onion' {no,yes}
+@ATTRIBUTE 'fried tofu' {no,yes}
+@ATTRIBUTE 'frozen chicken breast' {no,yes}
+@ATTRIBUTE 'frozen corn' {no,yes}
+@ATTRIBUTE 'frozen corn kernel' {no,yes}
+@ATTRIBUTE 'frozen crabmeat' {no,yes}
+@ATTRIBUTE 'frozen edamame' {no,yes}
+@ATTRIBUTE 'frozen green pea' {no,yes}
+@ATTRIBUTE 'frozen orange juice concentrate' {no,yes}
+@ATTRIBUTE 'frozen pea' {no,yes}
+@ATTRIBUTE 'frozen pea pod' {no,yes}
+@ATTRIBUTE 'frozen shelled edamame' {no,yes}
+@ATTRIBUTE 'frozen snow pea' {no,yes}
+@ATTRIBUTE 'frozen spinach' {no,yes}
+@ATTRIBUTE 'frozen stir fry vegetable' {no,yes}
+@ATTRIBUTE 'frozen strawberry' {no,yes}
+@ATTRIBUTE 'frozen tofu' {no,yes}
+@ATTRIBUTE 'fuji apple' {no,yes}
+@ATTRIBUTE 'furikake seasoning' {no,yes}
+@ATTRIBUTE 'galangal' {no,yes}
+@ATTRIBUTE 'garam masala' {no,yes}
+@ATTRIBUTE 'garlic' {no,yes}
+@ATTRIBUTE 'garlic butter' {no,yes}
+@ATTRIBUTE 'garlic chive' {no,yes}
+@ATTRIBUTE 'garlic granule' {no,yes}
+@ATTRIBUTE 'garlic juice' {no,yes}
+@ATTRIBUTE 'garlic powder' {no,yes}
+@ATTRIBUTE 'garlic salt' {no,yes}
+@ATTRIBUTE 'gekkeikan sake' {no,yes}
+@ATTRIBUTE 'gelatin' {no,yes}
+@ATTRIBUTE 'ginger' {no,yes}
+@ATTRIBUTE 'ginger ale' {no,yes}
+@ATTRIBUTE 'ginger juice' {no,yes}
+@ATTRIBUTE 'ginger powder' {no,yes}
+@ATTRIBUTE 'gingerroot' {no,yes}
+@ATTRIBUTE 'gluten-free soy sauce' {no,yes}
+@ATTRIBUTE 'glutinous-rice flour' {no,yes}
+@ATTRIBUTE 'golden brown sugar' {no,yes}
+@ATTRIBUTE 'graham cracker' {no,yes}
+@ATTRIBUTE 'granulated sugar' {no,yes}
+@ATTRIBUTE 'grapeeed oil' {no,yes}
+@ATTRIBUTE 'green bean' {no,yes}
+@ATTRIBUTE 'green bell pepper' {no,yes}
+@ATTRIBUTE 'green cabbage' {no,yes}
+@ATTRIBUTE 'green capicum' {no,yes}
+@ATTRIBUTE 'green chili' {no,yes}
+@ATTRIBUTE 'green food coloring' {no,yes}
+@ATTRIBUTE 'green onion' {no,yes}
+@ATTRIBUTE 'green onion top' {no,yes}
+@ATTRIBUTE 'green pea' {no,yes}
+@ATTRIBUTE 'green pepper' {no,yes}
+@ATTRIBUTE 'green prawn' {no,yes}
+@ATTRIBUTE 'green tea' {no,yes}
+@ATTRIBUTE 'green tea leaf' {no,yes}
+@ATTRIBUTE 'green tea powder' {no,yes}
+@ATTRIBUTE 'grenadine' {no,yes}
+@ATTRIBUTE 'ground allspice' {no,yes}
+@ATTRIBUTE 'ground beef' {no,yes}
+@ATTRIBUTE 'ground black pepper' {no,yes}
+@ATTRIBUTE 'ground cardamom' {no,yes}
+@ATTRIBUTE 'ground chuck' {no,yes}
+@ATTRIBUTE 'ground cinnamon' {no,yes}
+@ATTRIBUTE 'ground clove' {no,yes}
+@ATTRIBUTE 'ground coriander' {no,yes}
+@ATTRIBUTE 'ground cumin' {no,yes}
+@ATTRIBUTE 'ground ginger' {no,yes}
+@ATTRIBUTE 'ground japanese brown pepper' {no,yes}
+@ATTRIBUTE 'ground lean pork' {no,yes}
+@ATTRIBUTE 'ground mustard' {no,yes}
+@ATTRIBUTE 'ground nutmeg' {no,yes}
+@ATTRIBUTE 'ground pepper' {no,yes}
+@ATTRIBUTE 'ground pork' {no,yes}
+@ATTRIBUTE 'ground red pepper' {no,yes}
+@ATTRIBUTE 'ground turkey' {no,yes}
+@ATTRIBUTE 'ground turmeric' {no,yes}
+@ATTRIBUTE 'gyoza skins' {no,yes}
+@ATTRIBUTE 'ham' {no,yes}
+@ATTRIBUTE 'hard roll' {no,yes}
+@ATTRIBUTE 'hard-boiled egg' {no,yes}
+@ATTRIBUTE 'hass avocado' {no,yes}
+@ATTRIBUTE 'hazelnut' {no,yes}
+@ATTRIBUTE 'heavy cream' {no,yes}
+@ATTRIBUTE 'hellmann\'s mayonnaise' {no,yes}
+@ATTRIBUTE 'hoisin sauce' {no,yes}
+@ATTRIBUTE 'honey' {no,yes}
+@ATTRIBUTE 'honey-wheat tortilla' {no,yes}
+@ATTRIBUTE 'horseradish' {no,yes}
+@ATTRIBUTE 'hot chili' {no,yes}
+@ATTRIBUTE 'hot chili oil' {no,yes}
+@ATTRIBUTE 'hot mustard' {no,yes}
+@ATTRIBUTE 'hot pepper sauce' {no,yes}
+@ATTRIBUTE 'hot red pepper' {no,yes}
+@ATTRIBUTE 'hot red pepper flake' {no,yes}
+@ATTRIBUTE 'hot sauce' {no,yes}
+@ATTRIBUTE 'hot vegetable stock' {no,yes}
+@ATTRIBUTE 'hot water' {no,yes}
+@ATTRIBUTE 'ice' {no,yes}
+@ATTRIBUTE 'ice cube' {no,yes}
+@ATTRIBUTE 'ice water' {no,yes}
+@ATTRIBUTE 'iceberg lettuce' {no,yes}
+@ATTRIBUTE 'imitation crab stick' {no,yes}
+@ATTRIBUTE 'imitation crabmeat' {no,yes}
+@ATTRIBUTE 'in piece ginger' {no,yes}
+@ATTRIBUTE 'instant brown rice' {no,yes}
+@ATTRIBUTE 'instant chicken bouillon granule' {no,yes}
+@ATTRIBUTE 'instant yeast' {no,yes}
+@ATTRIBUTE 'italian dressing' {no,yes}
+@ATTRIBUTE 'jalapeno chili' {no,yes}
+@ATTRIBUTE 'japanese eggplant' {no,yes}
+@ATTRIBUTE 'japanese rice wine vinegar' {no,yes}
+@ATTRIBUTE 'japanese sansho pepper' {no,yes}
+@ATTRIBUTE 'japanese soy sauce' {no,yes}
+@ATTRIBUTE 'japanese-style breadcrumb' {no,yes}
+@ATTRIBUTE 'jasmine edible flower' {no,yes}
+@ATTRIBUTE 'juice of lemon' {no,yes}
+@ATTRIBUTE 'juice of lime' {no,yes}
+@ATTRIBUTE 'juice of orange' {no,yes}
+@ATTRIBUTE 'kabocha squash' {no,yes}
+@ATTRIBUTE 'kaffir lime leaf' {no,yes}
+@ATTRIBUTE 'katakuriko' {no,yes}
+@ATTRIBUTE 'kelp' {no,yes}
+@ATTRIBUTE 'ketchup' {no,yes}
+@ATTRIBUTE 'kikkoman soy sauce' {no,yes}
+@ATTRIBUTE 'king crab leg' {no,yes}
+@ATTRIBUTE 'kiwi' {no,yes}
+@ATTRIBUTE 'kombu' {no,yes}
+@ATTRIBUTE 'kosher salt' {no,yes}
+@ATTRIBUTE 'kosher salt and pepper' {no,yes}
+@ATTRIBUTE 'kumquat' {no,yes}
+@ATTRIBUTE 'lean beef' {no,yes}
+@ATTRIBUTE 'lean ground beef' {no,yes}
+@ATTRIBUTE 'lean ground turkey breast' {no,yes}
+@ATTRIBUTE 'lean pork loin' {no,yes}
+@ATTRIBUTE 'lebanese cucumber' {no,yes}
+@ATTRIBUTE 'leek' {no,yes}
+@ATTRIBUTE 'leftover potato' {no,yes}
+@ATTRIBUTE 'lemon' {no,yes}
+@ATTRIBUTE 'lemon juice' {no,yes}
+@ATTRIBUTE 'lemon peel' {no,yes}
+@ATTRIBUTE 'lemon slice' {no,yes}
+@ATTRIBUTE 'lemongrass' {no,yes}
+@ATTRIBUTE 'lettuce' {no,yes}
+@ATTRIBUTE 'lettuce leaf' {no,yes}
+@ATTRIBUTE 'light brown sugar' {no,yes}
+@ATTRIBUTE 'light chunk tuna in water' {no,yes}
+@ATTRIBUTE 'light corn syrup' {no,yes}
+@ATTRIBUTE 'light cream cheese' {no,yes}
+@ATTRIBUTE 'light mayonnaise' {no,yes}
+@ATTRIBUTE 'light miso' {no,yes}
+@ATTRIBUTE 'light olive oil' {no,yes}
+@ATTRIBUTE 'light soy sauce' {no,yes}
+@ATTRIBUTE 'lime' {no,yes}
+@ATTRIBUTE 'lime juice' {no,yes}
+@ATTRIBUTE 'linguine pasta' {no,yes}
+@ATTRIBUTE 'liquid honey' {no,yes}
+@ATTRIBUTE 'liquid smoke' {no,yes}
+@ATTRIBUTE 'lite olive oil' {no,yes}
+@ATTRIBUTE 'long-grain brown rice' {no,yes}
+@ATTRIBUTE 'long-grain rice' {no,yes}
+@ATTRIBUTE 'long-grain white rice' {no,yes}
+@ATTRIBUTE 'low-fat chicken broth' {no,yes}
+@ATTRIBUTE 'low-fat cream cheese' {no,yes}
+@ATTRIBUTE 'low-fat mayonnaise' {no,yes}
+@ATTRIBUTE 'low-fat plain yogurt' {no,yes}
+@ATTRIBUTE 'low-sodium chicken broth' {no,yes}
+@ATTRIBUTE 'low-sodium chicken stock' {no,yes}
+@ATTRIBUTE 'low-sodium soy sauce' {no,yes}
+@ATTRIBUTE 'low-sodium vegetable broth' {no,yes}
+@ATTRIBUTE 'low-sodium worcestershire sauce' {no,yes}
+@ATTRIBUTE 'lump crabmeat' {no,yes}
+@ATTRIBUTE 'maggi seasoning sauce' {no,yes}
+@ATTRIBUTE 'mahi mahi fish fillet' {no,yes}
+@ATTRIBUTE 'mandarin orange segment' {no,yes}
+@ATTRIBUTE 'mange-touts pea' {no,yes}
+@ATTRIBUTE 'mango' {no,yes}
+@ATTRIBUTE 'mango juice' {no,yes}
+@ATTRIBUTE 'maple syrup' {no,yes}
+@ATTRIBUTE 'margarine' {no,yes}
+@ATTRIBUTE 'marjoram' {no,yes}
+@ATTRIBUTE 'matcha green tea powder' {no,yes}
+@ATTRIBUTE 'mayonnaise' {no,yes}
+@ATTRIBUTE 'medium-grain rice' {no,yes}
+@ATTRIBUTE 'milk' {no,yes}
+@ATTRIBUTE 'millet' {no,yes}
+@ATTRIBUTE 'mint leaf' {no,yes}
+@ATTRIBUTE 'mirin' {no,yes}
+@ATTRIBUTE 'miso' {no,yes}
+@ATTRIBUTE 'mixed baby green' {no,yes}
+@ATTRIBUTE 'mixed mushroom' {no,yes}
+@ATTRIBUTE 'mixed salad green' {no,yes}
+@ATTRIBUTE 'mochiko sweet rice flour' {no,yes}
+@ATTRIBUTE 'mozzarella cheese' {no,yes}
+@ATTRIBUTE 'msg' {no,yes}
+@ATTRIBUTE 'mung bean sprout' {no,yes}
+@ATTRIBUTE 'mushroom' {no,yes}
+@ATTRIBUTE 'mushroom piece' {no,yes}
+@ATTRIBUTE 'mushroom soy sauce' {no,yes}
+@ATTRIBUTE 'mushroom stock' {no,yes}
+@ATTRIBUTE 'mustard' {no,yes}
+@ATTRIBUTE 'mustard powder' {no,yes}
+@ATTRIBUTE 'napa cabbage' {no,yes}
+@ATTRIBUTE 'new york strip steak' {no,yes}
+@ATTRIBUTE 'noodle' {no,yes}
+@ATTRIBUTE 'nori' {no,yes}
+@ATTRIBUTE 'nutmeg' {no,yes}
+@ATTRIBUTE 'nutritional yeast' {no,yes}
+@ATTRIBUTE 'oil' {no,yes}
+@ATTRIBUTE 'okra' {no,yes}
+@ATTRIBUTE 'old bay seasoning' {no,yes}
+@ATTRIBUTE 'olive oil' {no,yes}
+@ATTRIBUTE 'onion' {no,yes}
+@ATTRIBUTE 'onion powder' {no,yes}
+@ATTRIBUTE 'orange' {no,yes}
+@ATTRIBUTE 'orange bell pepper' {no,yes}
+@ATTRIBUTE 'orange curacao' {no,yes}
+@ATTRIBUTE 'orange juice' {no,yes}
+@ATTRIBUTE 'orange juice concentrate' {no,yes}
+@ATTRIBUTE 'orange peel' {no,yes}
+@ATTRIBUTE 'orange slice' {no,yes}
+@ATTRIBUTE 'oriental sesame oil' {no,yes}
+@ATTRIBUTE 'oriental-flavor instant ramen noodle' {no,yes}
+@ATTRIBUTE 'oyster' {no,yes}
+@ATTRIBUTE 'oyster sauce' {no,yes}
+@ATTRIBUTE 'palm sugar' {no,yes}
+@ATTRIBUTE 'panko' {no,yes}
+@ATTRIBUTE 'paprika' {no,yes}
+@ATTRIBUTE 'parmesan cheese' {no,yes}
+@ATTRIBUTE 'parsley' {no,yes}
+@ATTRIBUTE 'pea' {no,yes}
+@ATTRIBUTE 'peach schnapps' {no,yes}
+@ATTRIBUTE 'peanut' {no,yes}
+@ATTRIBUTE 'peanut butter' {no,yes}
+@ATTRIBUTE 'peanut oil' {no,yes}
+@ATTRIBUTE 'pecan' {no,yes}
+@ATTRIBUTE 'peel of lemon' {no,yes}
+@ATTRIBUTE 'penne pasta' {no,yes}
+@ATTRIBUTE 'pepper' {no,yes}
+@ATTRIBUTE 'peppercorn' {no,yes}
+@ATTRIBUTE 'pheasant' {no,yes}
+@ATTRIBUTE 'pickle relish' {no,yes}
+@ATTRIBUTE 'pickled daikon' {no,yes}
+@ATTRIBUTE 'pickled ginger' {no,yes}
+@ATTRIBUTE 'pickling cucumber' {no,yes}
+@ATTRIBUTE 'pie crust' {no,yes}
+@ATTRIBUTE 'pimiento' {no,yes}
+@ATTRIBUTE 'pineapple' {no,yes}
+@ATTRIBUTE 'pineapple chunk in juice' {no,yes}
+@ATTRIBUTE 'pineapple juice' {no,yes}
+@ATTRIBUTE 'pita pocket bread' {no,yes}
+@ATTRIBUTE 'plain flour' {no,yes}
+@ATTRIBUTE 'plain yogurt' {no,yes}
+@ATTRIBUTE 'plum' {no,yes}
+@ATTRIBUTE 'plum preserve' {no,yes}
+@ATTRIBUTE 'plum sauce' {no,yes}
+@ATTRIBUTE 'popped popcorn' {no,yes}
+@ATTRIBUTE 'porcini mushroom' {no,yes}
+@ATTRIBUTE 'pork' {no,yes}
+@ATTRIBUTE 'pork belly' {no,yes}
+@ATTRIBUTE 'pork chop' {no,yes}
+@ATTRIBUTE 'pork cutlet' {no,yes}
+@ATTRIBUTE 'pork fillet' {no,yes}
+@ATTRIBUTE 'pork loin chop' {no,yes}
+@ATTRIBUTE 'pork roast' {no,yes}
+@ATTRIBUTE 'pork sausage' {no,yes}
+@ATTRIBUTE 'pork shoulder' {no,yes}
+@ATTRIBUTE 'pork tenderloin' {no,yes}
+@ATTRIBUTE 'portabella mushroom' {no,yes}
+@ATTRIBUTE 'potato' {no,yes}
+@ATTRIBUTE 'potato starch' {no,yes}
+@ATTRIBUTE 'poultry seasoning' {no,yes}
+@ATTRIBUTE 'powdered ginger' {no,yes}
+@ATTRIBUTE 'powdered sugar' {no,yes}
+@ATTRIBUTE 'prawn' {no,yes}
+@ATTRIBUTE 'prime rib roast' {no,yes}
+@ATTRIBUTE 'processed cheese' {no,yes}
+@ATTRIBUTE 'pumpkin' {no,yes}
+@ATTRIBUTE 'pumpkin puree' {no,yes}
+@ATTRIBUTE 'pumpkin seed' {no,yes}
+@ATTRIBUTE 'quick-cooking brown rice' {no,yes}
+@ATTRIBUTE 'quinoa' {no,yes}
+@ATTRIBUTE 'radish' {no,yes}
+@ATTRIBUTE 'radish sprout' {no,yes}
+@ATTRIBUTE 'raisin' {no,yes}
+@ATTRIBUTE 'ramen noodle' {no,yes}
+@ATTRIBUTE 'red bell pepper' {no,yes}
+@ATTRIBUTE 'red cabbage' {no,yes}
+@ATTRIBUTE 'red capicum' {no,yes}
+@ATTRIBUTE 'red chili' {no,yes}
+@ATTRIBUTE 'red chili flake' {no,yes}
+@ATTRIBUTE 'red food coloring' {no,yes}
+@ATTRIBUTE 'red miso' {no,yes}
+@ATTRIBUTE 'red onion' {no,yes}
+@ATTRIBUTE 'red pepper' {no,yes}
+@ATTRIBUTE 'red pepper flake' {no,yes}
+@ATTRIBUTE 'red radish' {no,yes}
+@ATTRIBUTE 'red sweet pepper' {no,yes}
+@ATTRIBUTE 'red thai chili' {no,yes}
+@ATTRIBUTE 'red wine vinegar' {no,yes}
+@ATTRIBUTE 'reduced-fat cream cheese' {no,yes}
+@ATTRIBUTE 'reduced-fat mayonnaise' {no,yes}
+@ATTRIBUTE 'reduced-sodium chicken broth' {no,yes}
+@ATTRIBUTE 'reduced-sodium soy sauce' {no,yes}
+@ATTRIBUTE 'rib-eye steak' {no,yes}
+@ATTRIBUTE 'rice' {no,yes}
+@ATTRIBUTE 'rice bran oil' {no,yes}
+@ATTRIBUTE 'rice cake' {no,yes}
+@ATTRIBUTE 'rice cracker' {no,yes}
+@ATTRIBUTE 'rice flour' {no,yes}
+@ATTRIBUTE 'rice noodle' {no,yes}
+@ATTRIBUTE 'rice paper' {no,yes}
+@ATTRIBUTE 'rice vermicelli' {no,yes}
+@ATTRIBUTE 'rice vinegar' {no,yes}
+@ATTRIBUTE 'rice wine' {no,yes}
+@ATTRIBUTE 'rice wine vinegar' {no,yes}
+@ATTRIBUTE 'roasted nori' {no,yes}
+@ATTRIBUTE 'roasted peanut' {no,yes}
+@ATTRIBUTE 'roasted sesame seed' {no,yes}
+@ATTRIBUTE 'roasted soybean' {no,yes}
+@ATTRIBUTE 'roll' {no,yes}
+@ATTRIBUTE 'romaine lettuce' {no,yes}
+@ATTRIBUTE 'root beer' {no,yes}
+@ATTRIBUTE 'rose water' {no,yes}
+@ATTRIBUTE 'rosemary' {no,yes}
+@ATTRIBUTE 'round steak' {no,yes}
+@ATTRIBUTE 'rum' {no,yes}
+@ATTRIBUTE 'rum extract' {no,yes}
+@ATTRIBUTE 'runny honey' {no,yes}
+@ATTRIBUTE 'russet potato' {no,yes}
+@ATTRIBUTE 'sake' {no,yes}
+@ATTRIBUTE 'salad green' {no,yes}
+@ATTRIBUTE 'salad leaf' {no,yes}
+@ATTRIBUTE 'salad oil' {no,yes}
+@ATTRIBUTE 'salmon' {no,yes}
+@ATTRIBUTE 'salmon fillet' {no,yes}
+@ATTRIBUTE 'salmon roe' {no,yes}
+@ATTRIBUTE 'salmon steak' {no,yes}
+@ATTRIBUTE 'salsa' {no,yes}
+@ATTRIBUTE 'salt' {no,yes}
+@ATTRIBUTE 'salt and black pepper' {no,yes}
+@ATTRIBUTE 'salt and pepper' {no,yes}
+@ATTRIBUTE 'salt substitute' {no,yes}
+@ATTRIBUTE 'salted peanut' {no,yes}
+@ATTRIBUTE 'saltine cracker' {no,yes}
+@ATTRIBUTE 'sambal oelek' {no,yes}
+@ATTRIBUTE 'sausage' {no,yes}
+@ATTRIBUTE 'savoy cabbage' {no,yes}
+@ATTRIBUTE 'scallion' {no,yes}
+@ATTRIBUTE 'scallion top' {no,yes}
+@ATTRIBUTE 'scallop' {no,yes}
+@ATTRIBUTE 'scotch bonnet pepper' {no,yes}
+@ATTRIBUTE 'scotch whisky' {no,yes}
+@ATTRIBUTE 'sea bass fish fillet' {no,yes}
+@ATTRIBUTE 'sea salt' {no,yes}
+@ATTRIBUTE 'sea scallop' {no,yes}
+@ATTRIBUTE 'seasoned rice vinegar' {no,yes}
+@ATTRIBUTE 'seasoned rice wine vinegar' {no,yes}
+@ATTRIBUTE 'seasoning' {no,yes}
+@ATTRIBUTE 'seasoning salt' {no,yes}
+@ATTRIBUTE 'seltzer water' {no,yes}
+@ATTRIBUTE 'sesame oil' {no,yes}
+@ATTRIBUTE 'sesame paste' {no,yes}
+@ATTRIBUTE 'sesame seed' {no,yes}
+@ATTRIBUTE 'sesame seed oil' {no,yes}
+@ATTRIBUTE 'sesame tahini' {no,yes}
+@ATTRIBUTE 'shallot' {no,yes}
+@ATTRIBUTE 'sherry wine' {no,yes}
+@ATTRIBUTE 'shiitake mushroom' {no,yes}
+@ATTRIBUTE 'shiitake mushroom cap' {no,yes}
+@ATTRIBUTE 'shimeji mushroom' {no,yes}
+@ATTRIBUTE 'shirataki noodle' {no,yes}
+@ATTRIBUTE 'short-grain brown rice' {no,yes}
+@ATTRIBUTE 'short-grain rice' {no,yes}
+@ATTRIBUTE 'shortening' {no,yes}
+@ATTRIBUTE 'shoyu' {no,yes}
+@ATTRIBUTE 'shrimp' {no,yes}
+@ATTRIBUTE 'silken tofu' {no,yes}
+@ATTRIBUTE 'simple syrup' {no,yes}
+@ATTRIBUTE 'sirloin' {no,yes}
+@ATTRIBUTE 'sirloin steak' {no,yes}
+@ATTRIBUTE 'skewer' {no,yes}
+@ATTRIBUTE 'skim milk' {no,yes}
+@ATTRIBUTE 'smelt' {no,yes}
+@ATTRIBUTE 'smoked salmon' {no,yes}
+@ATTRIBUTE 'snow pea' {no,yes}
+@ATTRIBUTE 'snow pea pod' {no,yes}
+@ATTRIBUTE 'soba noodle' {no,yes}
+@ATTRIBUTE 'soda water' {no,yes}
+@ATTRIBUTE 'soft silken tofu' {no,yes}
+@ATTRIBUTE 'soup stock' {no,yes}
+@ATTRIBUTE 'sour cream' {no,yes}
+@ATTRIBUTE 'soy sauce' {no,yes}
+@ATTRIBUTE 'soya oil' {no,yes}
+@ATTRIBUTE 'soya sauce' {no,yes}
+@ATTRIBUTE 'soybean flour' {no,yes}
+@ATTRIBUTE 'soymilk' {no,yes}
+@ATTRIBUTE 'spaghetti' {no,yes}
+@ATTRIBUTE 'spam' {no,yes}
+@ATTRIBUTE 'spicy mayonnaise' {no,yes}
+@ATTRIBUTE 'spinach' {no,yes}
+@ATTRIBUTE 'spinach leaf' {no,yes}
+@ATTRIBUTE 'splenda sugar blend for baking' {no,yes}
+@ATTRIBUTE 'splenda sugar substitute' {no,yes}
+@ATTRIBUTE 'spring green' {no,yes}
+@ATTRIBUTE 'spring onion' {no,yes}
+@ATTRIBUTE 'sprite' {no,yes}
+@ATTRIBUTE 'squid' {no,yes}
+@ATTRIBUTE 'sriracha hot chili sauce' {no,yes}
+@ATTRIBUTE 'sriracha sauce' {no,yes}
+@ATTRIBUTE 'srirachi chili-garlic sauce' {no,yes}
+@ATTRIBUTE 'steak fillet' {no,yes}
+@ATTRIBUTE 'stock' {no,yes}
+@ATTRIBUTE 'sucanat' {no,yes}
+@ATTRIBUTE 'sugar' {no,yes}
+@ATTRIBUTE 'sugar snap pea' {no,yes}
+@ATTRIBUTE 'sugar substitute' {no,yes}
+@ATTRIBUTE 'sugar syrup' {no,yes}
+@ATTRIBUTE 'sugar-free apricot preserve' {no,yes}
+@ATTRIBUTE 'sunflower oil' {no,yes}
+@ATTRIBUTE 'sunflower seed' {no,yes}
+@ATTRIBUTE 'surimi' {no,yes}
+@ATTRIBUTE 'sushi nori' {no,yes}
+@ATTRIBUTE 'sushi rice' {no,yes}
+@ATTRIBUTE 'sweet chili sauce' {no,yes}
+@ATTRIBUTE 'sweet green pepper' {no,yes}
+@ATTRIBUTE 'sweet onion' {no,yes}
+@ATTRIBUTE 'sweet potato' {no,yes}
+@ATTRIBUTE 'sweet red pepper' {no,yes}
+@ATTRIBUTE 'sweet sherry' {no,yes}
+@ATTRIBUTE 'sweetened condensed milk' {no,yes}
+@ATTRIBUTE 'swordfish fillet' {no,yes}
+@ATTRIBUTE 'szechwan pepper' {no,yes}
+@ATTRIBUTE 'tabasco sauce' {no,yes}
+@ATTRIBUTE 'table salt' {no,yes}
+@ATTRIBUTE 'tahini' {no,yes}
+@ATTRIBUTE 'tahini paste' {no,yes}
+@ATTRIBUTE 'tamari' {no,yes}
+@ATTRIBUTE 'tamari soy sauce' {no,yes}
+@ATTRIBUTE 'tea' {no,yes}
+@ATTRIBUTE 'tempura batter' {no,yes}
+@ATTRIBUTE 'tenderloin' {no,yes}
+@ATTRIBUTE 'teriyaki marinade' {no,yes}
+@ATTRIBUTE 'teriyaki sauce' {no,yes}
+@ATTRIBUTE 'thai fish sauce' {no,yes}
+@ATTRIBUTE 'thai sweet chili sauce' {no,yes}
+@ATTRIBUTE 'thin noodle' {no,yes}
+@ATTRIBUTE 'tilapia fish fillet' {no,yes}
+@ATTRIBUTE 'toasted peanut' {no,yes}
+@ATTRIBUTE 'toasted sesame oil' {no,yes}
+@ATTRIBUTE 'toasted sesame seed' {no,yes}
+@ATTRIBUTE 'toasted soy flour' {no,yes}
+@ATTRIBUTE 'tofu' {no,yes}
+@ATTRIBUTE 'tomato' {no,yes}
+@ATTRIBUTE 'tomato juice' {no,yes}
+@ATTRIBUTE 'tomato ketchup' {no,yes}
+@ATTRIBUTE 'tomato paste' {no,yes}
+@ATTRIBUTE 'tomato puree' {no,yes}
+@ATTRIBUTE 'tomato sauce' {no,yes}
+@ATTRIBUTE 'toothpick' {no,yes}
+@ATTRIBUTE 'top ramen noodle' {no,yes}
+@ATTRIBUTE 'tsuyu sauce' {no,yes}
+@ATTRIBUTE 'tuna' {no,yes}
+@ATTRIBUTE 'tuna fillet' {no,yes}
+@ATTRIBUTE 'tuna in water' {no,yes}
+@ATTRIBUTE 'tuna steak' {no,yes}
+@ATTRIBUTE 'turnip' {no,yes}
+@ATTRIBUTE 'udon noodle' {no,yes}
+@ATTRIBUTE 'umeboshi' {no,yes}
+@ATTRIBUTE 'unbleached all-purpose flour' {no,yes}
+@ATTRIBUTE 'unsalted butter' {no,yes}
+@ATTRIBUTE 'unseasoned rice vinegar' {no,yes}
+@ATTRIBUTE 'unsweetened coconut' {no,yes}
+@ATTRIBUTE 'unsweetened pineapple juice' {no,yes}
+@ATTRIBUTE 'vanilla' {no,yes}
+@ATTRIBUTE 'vanilla extract' {no,yes}
+@ATTRIBUTE 'vanilla vodka' {no,yes}
+@ATTRIBUTE 'vanilla-flavored syrup' {no,yes}
+@ATTRIBUTE 'vegan mayonnaise' {no,yes}
+@ATTRIBUTE 'vegetable' {no,yes}
+@ATTRIBUTE 'vegetable bouillon granule' {no,yes}
+@ATTRIBUTE 'vegetable broth' {no,yes}
+@ATTRIBUTE 'vegetable oil' {no,yes}
+@ATTRIBUTE 'vegetable shortening' {no,yes}
+@ATTRIBUTE 'vegetable stock' {no,yes}
+@ATTRIBUTE 'vegetable stock cube' {no,yes}
+@ATTRIBUTE 'vegetarian worcestershire sauce' {no,yes}
+@ATTRIBUTE 'veggie crumble' {no,yes}
+@ATTRIBUTE 'vermicelli' {no,yes}
+@ATTRIBUTE 'vidalia onion' {no,yes}
+@ATTRIBUTE 'vinegar' {no,yes}
+@ATTRIBUTE 'vodka' {no,yes}
+@ATTRIBUTE 'wakame seaweed' {no,yes}
+@ATTRIBUTE 'walnut' {no,yes}
+@ATTRIBUTE 'warm milk' {no,yes}
+@ATTRIBUTE 'warm water' {no,yes}
+@ATTRIBUTE 'wasabi' {no,yes}
+@ATTRIBUTE 'wasabi paste' {no,yes}
+@ATTRIBUTE 'wasabi powder' {no,yes}
+@ATTRIBUTE 'water' {no,yes}
+@ATTRIBUTE 'water chestnut' {no,yes}
+@ATTRIBUTE 'watercress' {no,yes}
+@ATTRIBUTE 'waxy potato' {no,yes}
+@ATTRIBUTE 'wheat germ' {no,yes}
+@ATTRIBUTE 'whipped cream' {no,yes}
+@ATTRIBUTE 'white bread' {no,yes}
+@ATTRIBUTE 'white button mushroom' {no,yes}
+@ATTRIBUTE 'white corn syrup' {no,yes}
+@ATTRIBUTE 'white fish fillet' {no,yes}
+@ATTRIBUTE 'white flour' {no,yes}
+@ATTRIBUTE 'white miso' {no,yes}
+@ATTRIBUTE 'white mushroom' {no,yes}
+@ATTRIBUTE 'white onion' {no,yes}
+@ATTRIBUTE 'white pepper' {no,yes}
+@ATTRIBUTE 'white rice' {no,yes}
+@ATTRIBUTE 'white sesame seed' {no,yes}
+@ATTRIBUTE 'white shrimp' {no,yes}
+@ATTRIBUTE 'white sugar' {no,yes}
+@ATTRIBUTE 'white vinegar' {no,yes}
+@ATTRIBUTE 'white wine' {no,yes}
+@ATTRIBUTE 'white wine vinegar' {no,yes}
+@ATTRIBUTE 'whole milk' {no,yes}
+@ATTRIBUTE 'whole-grain bun' {no,yes}
+@ATTRIBUTE 'whole-grain mustard' {no,yes}
+@ATTRIBUTE 'whole-wheat bread' {no,yes}
+@ATTRIBUTE 'whole-wheat pasta' {no,yes}
+@ATTRIBUTE 'whole-wheat sandwich bread' {no,yes}
+@ATTRIBUTE 'whole-wheat spaghetti' {no,yes}
+@ATTRIBUTE 'wild mushroom' {no,yes}
+@ATTRIBUTE 'wine' {no,yes}
+@ATTRIBUTE 'wine vinegar' {no,yes}
+@ATTRIBUTE 'wonton wrapper' {no,yes}
+@ATTRIBUTE 'worcestershire sauce' {no,yes}
+@ATTRIBUTE 'yellow bell pepper' {no,yes}
+@ATTRIBUTE 'yellow miso' {no,yes}
+@ATTRIBUTE 'yellow mustard' {no,yes}
+@ATTRIBUTE 'yellow onion' {no,yes}
+@ATTRIBUTE 'yellow pepper' {no,yes}
+@ATTRIBUTE 'yellow sweet pepper' {no,yes}
+@ATTRIBUTE 'yellow wax bean' {no,yes}
+@ATTRIBUTE 'zucchini' {no,yes}
+
+@DATA
+{280 yes, 332 yes, 385 yes, 428 yes, 559 yes, 607 yes, 638 yes}
+{218 yes, 295 yes, 576 yes, 635 yes, 638 yes, 660 yes, 745 yes}
+{89 yes, 167 yes, 269 yes, 278 yes, 377 yes, 454 yes, 551 yes, 612 yes, 631 yes, 638 yes, 660 yes, 745 yes}
+{44 yes, 89 yes, 269 yes, 458 yes, 515 yes, 745 yes}
+{728 yes}
+{167 yes, 185 yes, 191 yes, 193 yes, 229 yes, 282 yes, 295 yes, 433 yes, 454 yes, 638 yes, 640 yes, 651 yes, 660 yes, 698 yes}
+{6 yes, 168 yes, 264 yes, 278 yes, 434 yes, 527 yes, 559 yes, 594 yes, 683 yes, 700 yes, 728 yes, 745 yes, 785 yes}
+{96 yes, 155 yes, 168 yes, 298 yes, 442 yes, 454 yes, 458 yes, 551 yes, 571 yes, 638 yes, 745 yes}
+{367 yes, 438 yes, 660 yes, 745 yes}
+{86 yes, 108 yes, 218 yes, 254 yes, 269 yes, 343 yes, 442 yes, 457 yes, 473 yes, 492 yes, 745 yes, 755 yes}
+{30 yes, 83 yes, 660 yes, 745 yes}
+{30 yes, 245 yes, 353 yes, 430 yes, 585 yes, 660 yes, 729 yes, 745 yes}
+{414 yes, 428 yes, 454 yes, 559 yes, 660 yes, 708 yes}
+{576 yes, 621 yes, 745 yes}
+{62 yes, 68 yes, 89 yes, 110 yes, 168 yes, 278 yes, 331 yes, 401 yes, 442 yes, 458 yes, 504 yes, 638 yes, 661 yes, 695 yes, 728 yes}
+{194 yes, 332 yes, 428 yes, 561 yes, 607 yes}
+{13 yes, 14 yes, 367 yes, 438 yes, 660 yes, 745 yes}
+{442 yes, 531 yes, 594 yes, 622 yes, 638 yes, 698 yes, 699 yes}
+{19 yes, 180 yes, 278 yes, 540 yes, 696 yes}
+{85 yes, 269 yes, 385 yes, 549 yes, 614 yes, 623 yes, 695 yes, 744 yes}
+{269 yes, 278 yes, 388 yes, 587 yes, 594 yes, 607 yes, 638 yes}
+{132 yes, 168 yes, 190 yes, 213 yes, 269 yes, 398 yes, 480 yes, 559 yes, 607 yes, 660 yes, 745 yes}
+{269 yes, 289 yes, 607 yes, 638 yes, 728 yes, 736 yes}
+{22 yes, 40 yes, 43 yes, 75 yes, 180 yes, 457 yes, 473 yes, 532 yes, 585 yes, 607 yes, 609 yes, 698 yes}
+{24 yes, 68 yes, 198 yes, 221 yes, 269 yes, 278 yes, 378 yes, 398 yes, 468 yes, 594 yes, 661 yes}
+{75 yes, 269 yes, 313 yes, 341 yes, 403 yes, 459 yes, 509 yes, 541 yes, 638 yes, 728 yes, 745 yes, 764 yes}
+{142 yes, 269 yes, 278 yes, 331 yes, 379 yes, 411 yes, 446 yes, 541 yes, 547 yes, 549 yes, 585 yes, 594 yes, 607 yes, 664 yes, 695 yes, 696 yes, 746 yes, 768 yes, 772 yes}
+{180 yes, 219 yes, 282 yes, 399 yes, 638 yes, 694 yes, 698 yes, 728 yes}
+{385 yes, 428 yes, 638 yes, 660 yes, 743 yes}
+{81 yes, 269 yes, 271 yes, 282 yes, 319 yes, 484 yes, 576 yes, 585 yes, 610 yes, 638 yes, 777 yes}
+{22 yes, 89 yes, 283 yes, 384 yes, 451 yes, 559 yes, 585 yes, 609 yes, 614 yes, 660 yes, 669 yes, 724 yes, 745 yes}
+{22 yes, 89 yes, 400 yes, 414 yes, 551 yes, 559 yes, 585 yes, 647 yes, 660 yes}
+{22 yes, 199 yes, 610 yes, 638 yes, 660 yes, 698 yes, 699 yes, 736 yes}
+{22 yes, 398 yes, 561 yes, 742 yes}
+{22 yes, 451 yes, 589 yes, 669 yes}
+{108 yes, 145 yes, 213 yes, 269 yes, 278 yes, 292 yes, 607 yes, 638 yes, 651 yes}
+{43 yes, 62 yes, 118 yes, 161 yes, 267 yes, 388 yes, 400 yes, 535 yes, 585 yes, 612 yes, 745 yes, 759 yes}
+{16 yes, 108 yes, 269 yes, 458 yes, 517 yes, 638 yes}
+{31 yes, 75 yes, 438 yes, 745 yes}
+{457 yes, 515 yes}
+{85 yes, 149 yes, 229 yes, 374 yes, 638 yes, 721 yes}
+{36 yes, 87 yes, 140 yes, 454 yes, 660 yes, 750 yes, 777 yes}
+{168 yes, 389 yes, 428 yes, 454 yes, 594 yes, 654 yes, 691 yes}
+{136 yes, 429 yes, 585 yes, 630 yes, 668 yes, 696 yes, 714 yes, 745 yes}
+{278 yes, 434 yes, 594 yes, 745 yes}
+{18 yes, 22 yes, 27 yes, 43 yes, 126 yes, 224 yes, 269 yes, 278 yes, 534 yes, 539 yes, 745 yes}
+{57 yes, 81 yes, 89 yes, 218 yes, 220 yes, 269 yes, 278 yes, 305 yes, 458 yes, 480 yes, 638 yes}
+{134 yes, 215 yes, 278 yes, 305 yes, 480 yes, 607 yes, 638 yes, 651 yes}
+{157 yes, 396 yes, 550 yes, 576 yes, 609 yes, 638 yes, 660 yes}
+{237 yes, 280 yes, 295 yes, 433 yes, 551 yes, 617 yes, 638 yes, 660 yes}
+{269 yes, 278 yes, 458 yes, 626 yes, 638 yes, 660 yes, 745 yes}
+{269 yes, 278 yes, 362 yes, 381 yes, 534 yes, 561 yes, 564 yes, 613 yes, 638 yes, 651 yes, 660 yes}
+{92 yes, 96 yes, 168 yes, 295 yes, 298 yes, 454 yes, 458 yes, 571 yes, 638 yes, 660 yes, 699 yes, 775 yes, 778 yes}
+{44 yes, 67 yes, 168 yes, 282 yes, 579 yes, 607 yes, 638 yes, 660 yes, 745 yes, 765 yes}
+{52 yes, 162 yes, 244 yes, 269 yes, 278 yes, 293 yes, 366 yes, 471 yes}
+{313 yes, 458 yes, 561 yes, 638 yes}
+{9 yes, 269 yes, 596 yes, 607 yes, 609 yes, 638 yes}
+{7 yes, 89 yes, 96 yes, 110 yes, 295 yes, 430 yes, 442 yes, 585 yes, 728 yes, 745 yes, 758 yes}
+{209 yes, 269 yes, 329 yes, 343 yes, 609 yes, 638 yes}
+{363 yes, 462 yes, 572 yes}
+{270 yes, 385 yes, 484 yes, 585 yes, 622 yes, 638 yes, 639 yes}
+{43 yes, 67 yes, 81 yes, 89 yes, 93 yes, 213 yes, 289 yes, 451 yes, 458 yes, 594 yes, 614 yes, 638 yes, 651 yes, 660 yes, 756 yes}
+{78 yes, 169 yes, 198 yes, 204 yes, 218 yes, 321 yes, 334 yes, 369 yes, 585 yes, 638 yes}
+{585 yes, 660 yes, 745 yes}
+{78 yes, 95 yes, 295 yes, 318 yes, 384 yes, 442 yes, 469 yes, 538 yes}
+{269 yes, 278 yes, 332 yes, 359 yes, 433 yes, 607 yes}
+{50 yes, 76 yes, 269 yes, 433 yes, 457 yes, 638 yes, 660 yes}
+{55 yes, 90 yes, 200 yes, 269 yes, 278 yes, 633 yes, 638 yes, 650 yes, 651 yes, 696 yes, 728 yes, 730 yes}
+{8 yes, 57 yes, 223 yes, 269 yes, 280 yes, 433 yes, 559 yes, 600 yes, 607 yes, 638 yes, 745 yes}
+{30 yes, 60 yes, 78 yes, 218 yes, 228 yes, 438 yes, 660 yes, 720 yes}
+{89 yes, 118 yes, 168 yes, 269 yes, 295 yes, 306 yes, 319 yes, 444 yes, 470 yes, 560 yes, 587 yes, 607 yes, 622 yes, 638 yes, 777 yes}
+{22 yes, 180 yes, 451 yes, 622 yes, 669 yes}
+{218 yes, 451 yes, 584 yes, 592 yes}
+{68 yes, 157 yes, 324 yes, 585 yes, 638 yes}
+{68 yes, 385 yes, 638 yes, 695 yes, 784 yes}
+{67 yes, 89 yes, 168 yes, 189 yes, 269 yes, 414 yes, 561 yes, 633 yes, 660 yes, 728 yes, 745 yes}
+{10 yes, 22 yes, 89 yes, 180 yes, 428 yes, 433 yes, 451 yes, 527 yes, 559 yes, 600 yes, 609 yes, 618 yes, 660 yes, 745 yes}
+{71 yes, 282 yes, 385 yes, 434 yes, 730 yes}
+{75 yes, 745 yes, 763 yes}
+{22 yes, 89 yes, 180 yes, 371 yes, 489 yes, 638 yes, 696 yes, 760 yes}
+{22 yes, 171 yes, 295 yes, 394 yes, 395 yes, 398 yes, 451 yes, 669 yes}
+{22 yes, 179 yes, 180 yes, 198 yes, 218 yes, 295 yes, 395 yes, 484 yes, 585 yes, 667 yes, 728 yes, 744 yes}
+{22 yes, 224 yes, 246 yes, 349 yes, 409 yes, 410 yes, 607 yes, 638 yes}
+{22 yes, 171 yes, 180 yes, 295 yes, 333 yes, 398 yes, 428 yes, 559 yes, 743 yes, 760 yes}
+{22 yes, 185 yes, 224 yes, 428 yes, 489 yes, 638 yes, 743 yes, 744 yes}
+{22 yes, 172 yes, 180 yes, 362 yes, 451 yes, 489 yes, 609 yes, 638 yes, 669 yes}
+{218 yes, 392 yes, 458 yes, 587 yes, 621 yes, 660 yes, 728 yes}
+{52 yes, 75 yes, 150 yes, 157 yes, 188 yes, 222 yes, 245 yes, 269 yes, 278 yes, 346 yes, 539 yes, 585 yes, 673 yes, 674 yes}
+{85 yes, 89 yes, 282 yes, 396 yes, 559 yes, 745 yes}
+{89 yes, 244 yes, 600 yes, 660 yes, 758 yes}
+{22 yes, 180 yes, 451 yes, 669 yes}
+{28 yes, 89 yes, 218 yes, 457 yes, 484 yes, 576 yes, 585 yes, 638 yes, 760 yes}
+{231 yes, 344 yes, 663 yes, 685 yes, 741 yes}
+{30 yes, 438 yes, 516 yes, 537 yes, 660 yes, 745 yes}
+{43 yes, 89 yes, 108 yes, 220 yes, 221 yes, 269 yes, 295 yes, 458 yes, 532 yes, 607 yes, 728 yes}
+{78 yes, 89 yes, 104 yes, 218 yes, 257 yes, 295 yes, 476 yes, 539 yes, 551 yes, 607 yes, 638 yes}
+{89 yes, 122 yes, 275 yes, 407 yes, 433 yes, 458 yes, 476 yes, 576 yes, 585 yes, 614 yes, 621 yes, 660 yes, 745 yes}
+{108 yes, 167 yes, 269 yes, 282 yes, 484 yes, 585 yes, 638 yes, 755 yes}
+{12 yes, 122 yes, 158 yes, 209 yes, 218 yes, 245 yes, 274 yes, 275 yes, 304 yes, 310 yes, 360 yes, 369 yes, 454 yes, 638 yes, 660 yes, 778 yes}
+{108 yes, 110 yes, 269 yes, 313 yes, 454 yes, 638 yes, 660 yes}
+{122 yes, 269 yes, 313 yes, 320 yes, 414 yes, 463 yes}
+{122 yes, 332 yes, 350 yes, 399 yes, 433 yes, 457 yes, 540 yes, 576 yes, 587 yes, 594 yes, 597 yes, 638 yes, 689 yes}
+{113 yes, 295 yes, 433 yes, 576 yes, 638 yes, 660 yes}
+{108 yes, 161 yes, 207 yes, 218 yes, 433 yes, 458 yes, 551 yes, 638 yes, 660 yes, 745 yes}
+{57 yes, 67 yes, 89 yes, 122 yes, 161 yes, 218 yes, 269 yes, 278 yes, 295 yes, 416 yes, 470 yes, 607 yes, 613 yes, 640 yes, 660 yes, 759 yes}
+{89 yes, 278 yes, 295 yes, 359 yes, 433 yes, 488 yes, 489 yes, 587 yes}
+{128 yes, 540 yes, 638 yes}
+{194 yes, 600 yes, 660 yes, 695 yes, 717 yes}
+{10 yes, 278 yes, 374 yes, 660 yes, 717 yes, 764 yes}
+{269 yes, 278 yes, 295 yes, 400 yes, 463 yes, 583 yes, 689 yes}
+{8 yes, 295 yes, 448 yes, 457 yes, 533 yes, 561 yes, 600 yes, 607 yes, 659 yes, 696 yes, 710 yes}
+{27 yes, 108 yes, 278 yes, 414 yes, 457 yes, 542 yes, 561 yes, 607 yes, 696 yes}
+{161 yes, 171 yes, 226 yes, 253 yes, 385 yes, 414 yes, 527 yes, 561 yes, 607 yes}
+{66 yes, 153 yes, 277 yes, 676 yes}
+{154 yes, 170 yes, 269 yes, 278 yes, 295 yes, 442 yes, 454 yes, 638 yes, 760 yes}
+{43 yes, 433 yes, 528 yes, 559 yes, 585 yes, 594 yes, 609 yes, 633 yes, 638 yes, 728 yes}
+{269 yes, 281 yes, 541 yes, 594 yes, 607 yes, 609 yes, 638 yes, 660 yes, 698 yes}
+{176 yes, 198 yes, 338 yes, 428 yes, 484 yes, 600 yes, 638 yes, 708 yes, 777 yes}
+{22 yes, 417 yes, 428 yes, 451 yes, 638 yes, 669 yes, 743 yes}
+{174 yes, 399 yes, 576 yes, 652 yes}
+{57 yes, 81 yes, 108 yes, 194 yes, 218 yes, 245 yes, 304 yes, 374 yes, 638 yes, 660 yes, 701 yes, 745 yes, 778 yes}
+{269 yes, 278 yes, 626 yes, 638 yes, 660 yes, 728 yes}
+{224 yes, 295 yes, 475 yes, 559 yes, 563 yes, 622 yes, 638 yes, 660 yes, 744 yes}
+{161 yes, 180 yes, 480 yes, 539 yes, 541 yes, 561 yes, 607 yes, 638 yes, 660 yes, 696 yes}
+{30 yes, 78 yes, 218 yes, 660 yes, 720 yes, 767 yes}
+{555 yes, 660 yes, 745 yes}
+{78 yes, 185 yes, 210 yes, 218 yes, 324 yes, 484 yes, 585 yes}
+{137 yes, 269 yes, 278 yes, 295 yes, 336 yes, 340 yes, 480 yes, 585 yes, 638 yes, 660 yes, 745 yes}
+{63 yes, 203 yes, 295 yes, 398 yes, 600 yes, 745 yes}
+{31 yes, 104 yes, 168 yes, 218 yes, 245 yes, 438 yes, 585 yes, 638 yes, 660 yes}
+{32 yes, 89 yes, 125 yes, 230 yes, 251 yes, 254 yes, 282 yes, 638 yes}
+{3 yes, 30 yes, 218 yes, 245 yes, 332 yes, 585 yes, 660 yes, 745 yes}
+{428 yes}
+{28 yes, 89 yes, 218 yes, 457 yes, 484 yes, 551 yes, 576 yes, 585 yes, 638 yes}
+{75 yes, 85 yes, 269 yes, 278 yes, 510 yes, 638 yes, 745 yes}
+{269 yes, 341 yes, 585 yes, 622 yes}
+{216 yes, 585 yes}
+{259 yes, 457 yes, 458 yes, 515 yes, 587 yes, 637 yes, 730 yes}
+{139 yes, 218 yes, 442 yes, 585 yes, 638 yes, 658 yes, 678 yes}
+{218 yes, 245 yes, 585 yes, 660 yes}
+{39 yes, 211 yes, 269 yes, 278 yes, 356 yes, 434 yes, 435 yes, 457 yes, 559 yes, 587 yes, 728 yes}
+{89 yes, 295 yes, 384 yes, 385 yes, 398 yes, 442 yes, 520 yes, 596 yes}
+{7 yes, 89 yes, 108 yes, 136 yes, 168 yes, 218 yes, 269 yes, 278 yes, 295 yes, 391 yes, 480 yes, 500 yes, 503 yes, 541 yes, 561 yes, 607 yes, 612 yes, 614 yes, 632 yes, 638 yes, 660 yes, 728 yes, 745 yes}
+{159 yes, 332 yes, 400 yes, 496 yes, 638 yes, 744 yes}
+{254 yes, 269 yes, 278 yes, 585 yes, 607 yes, 609 yes, 728 yes}
+{278 yes, 397 yes, 541 yes, 594 yes, 678 yes, 695 yes}
+{89 yes, 180 yes, 185 yes, 269 yes, 433 yes, 559 yes, 638 yes}
+{22 yes, 89 yes, 133 yes, 180 yes, 189 yes, 234 yes, 295 yes, 385 yes, 435 yes, 551 yes, 696 yes}
+{339 yes, 480 yes, 594 yes, 607 yes, 609 yes, 636 yes, 638 yes, 698 yes}
+{109 yes, 168 yes, 180 yes, 278 yes, 359 yes, 433 yes, 489 yes, 728 yes}
+{58 yes, 332 yes, 454 yes, 673 yes}
+{127 yes, 148 yes, 609 yes}
+{53 yes, 89 yes, 92 yes, 458 yes, 551 yes}
+{22 yes, 89 yes, 180 yes, 348 yes, 451 yes, 551 yes, 559 yes, 567 yes, 622 yes}
+{106 yes, 126 yes, 180 yes, 218 yes, 269 yes, 454 yes, 551 yes, 587 yes, 699 yes}
+{94 yes, 216 yes, 254 yes, 269 yes, 585 yes, 607 yes}
+{161 yes, 278 yes, 300 yes, 451 yes, 551 yes, 609 yes}
+{43 yes, 122 yes, 161 yes, 218 yes, 269 yes, 282 yes, 421 yes, 489 yes, 535 yes, 539 yes, 651 yes, 707 yes, 713 yes, 728 yes}
+{0 yes, 108 yes, 139 yes, 161 yes, 168 yes, 269 yes, 278 yes, 332 yes, 363 yes, 479 yes, 483 yes, 541 yes, 549 yes}
+{489 yes, 609 yes, 669 yes}
+{278 yes, 433 yes, 638 yes, 653 yes, 728 yes}
+{142 yes, 282 yes, 306 yes, 541 yes, 638 yes}
+{75 yes, 269 yes, 278 yes, 698 yes, 728 yes}
+{43 yes, 81 yes, 89 yes, 218 yes, 255 yes, 295 yes, 306 yes, 511 yes, 638 yes, 728 yes, 760 yes}
+{168 yes, 229 yes, 269 yes, 282 yes, 332 yes, 433 yes, 480 yes, 541 yes, 594 yes, 638 yes, 695 yes}
+{89 yes, 278 yes, 559 yes, 594 yes, 600 yes, 607 yes, 683 yes, 698 yes, 745 yes}
+{61 yes, 585 yes, 609 yes, 638 yes, 646 yes, 660 yes, 745 yes}
+{224 yes, 602 yes, 607 yes, 638 yes, 660 yes}
+{38 yes, 168 yes, 269 yes, 289 yes, 433 yes, 458 yes, 607 yes, 745 yes}
+{191 yes, 289 yes, 638 yes, 660 yes}
+{180 yes, 559 yes, 585 yes, 638 yes, 660 yes}
+{56 yes, 81 yes, 84 yes, 278 yes, 301 yes, 306 yes, 328 yes, 441 yes, 451 yes, 458 yes, 585 yes, 609 yes, 660 yes, 698 yes, 699 yes, 713 yes}
+{279 yes, 302 yes, 332 yes, 343 yes, 345 yes}
+{222 yes, 329 yes, 343 yes, 430 yes, 660 yes}
+{177 yes, 218 yes, 302 yes, 332 yes, 585 yes, 660 yes, 721 yes, 755 yes}
+{277 yes, 302 yes, 438 yes, 660 yes, 745 yes}
+{30 yes, 78 yes, 218 yes, 245 yes, 302 yes, 660 yes}
+{7 yes, 156 yes, 302 yes, 585 yes, 716 yes}
+{329 yes, 427 yes, 519 yes, 720 yes}
+{332 yes, 569 yes, 660 yes, 745 yes}
+{142 yes, 269 yes, 278 yes, 560 yes, 594 yes, 607 yes, 638 yes, 660 yes, 677 yes, 745 yes}
+{122 yes, 136 yes, 269 yes, 282 yes, 295 yes, 396 yes, 398 yes, 433 yes, 576 yes, 696 yes}
+{269 yes, 282 yes, 295 yes, 385 yes, 446 yes, 457 yes, 464 yes, 583 yes, 638 yes, 704 yes, 728 yes}
+{75 yes, 209 yes, 274 yes, 278 yes, 626 yes, 638 yes, 728 yes}
+{78 yes, 457 yes, 458 yes, 484 yes, 585 yes, 638 yes, 786 yes}
+{1 yes, 33 yes, 96 yes, 168 yes, 298 yes, 378 yes, 442 yes, 458 yes, 551 yes, 585 yes, 594 yes, 638 yes, 660 yes, 746 yes}
+{47 yes, 89 yes, 96 yes, 295 yes, 305 yes, 313 yes, 532 yes, 535 yes, 551 yes, 638 yes, 728 yes}
+{81 yes, 82 yes, 197 yes, 269 yes, 278 yes, 282 yes, 295 yes, 305 yes, 319 yes, 343 yes, 359 yes, 480 yes, 484 yes, 561 yes, 585 yes, 607 yes, 613 yes, 638 yes, 777 yes}
+{89 yes, 128 yes, 157 yes, 218 yes, 269 yes, 559 yes, 594 yes, 607 yes, 638 yes}
+{341 yes, 561 yes, 607 yes, 638 yes, 660 yes}
+{59 yes, 161 yes, 282 yes, 295 yes, 433 yes, 638 yes}
+{218 yes, 232 yes, 457 yes, 458 yes, 607 yes, 671 yes}
+{40 yes, 63 yes, 248 yes, 269 yes, 352 yes, 398 yes, 432 yes, 484 yes, 551 yes, 728 yes}
+{75 yes, 89 yes, 93 yes, 97 yes, 168 yes, 269 yes, 282 yes, 414 yes, 459 yes, 745 yes, 786 yes}
+{24 yes, 67 yes, 108 yes, 260 yes, 269 yes, 458 yes, 551 yes, 587 yes, 607 yes, 689 yes}
+{68 yes, 189 yes, 269 yes, 278 yes, 295 yes, 414 yes, 457 yes, 538 yes, 541 yes, 609 yes}
+{161 yes, 282 yes, 342 yes, 363 yes, 442 yes, 607 yes, 638 yes, 698 yes}
+{161 yes, 269 yes, 414 yes, 458 yes, 475 yes, 711 yes, 743 yes}
+{89 yes, 278 yes, 306 yes, 332 yes, 457 yes, 559 yes, 585 yes, 594 yes, 631 yes, 696 yes, 745 yes}
+{43 yes, 89 yes, 108 yes, 135 yes, 180 yes, 247 yes, 489 yes, 561 yes, 607 yes, 638 yes, 660 yes, 699 yes, 745 yes}
+{278 yes, 359 yes, 382 yes, 433 yes, 451 yes, 633 yes, 745 yes}
+{751 yes}
+{78 yes, 142 yes, 282 yes, 332 yes, 433 yes, 583 yes, 587 yes, 638 yes}
+{100 yes, 278 yes, 332 yes, 549 yes, 559 yes, 594 yes, 696 yes}
+{68 yes, 89 yes, 96 yes, 108 yes, 129 yes, 205 yes, 269 yes, 282 yes, 295 yes, 560 yes, 728 yes, 746 yes}
+{142 yes, 413 yes, 638 yes, 660 yes}
+{217 yes, 241 yes, 451 yes, 489 yes, 551 yes, 629 yes, 638 yes, 645 yes, 696 yes, 725 yes}
+{489 yes, 609 yes, 638 yes, 660 yes, 669 yes, 745 yes}
+{493 yes, 576 yes}
+{218 yes, 549 yes, 552 yes, 576 yes, 585 yes, 632 yes, 660 yes, 760 yes}
+{53 yes, 122 yes, 358 yes, 433 yes, 536 yes, 614 yes, 638 yes}
+{65 yes, 78 yes, 218 yes, 305 yes, 306 yes, 369 yes, 430 yes, 458 yes, 576 yes, 585 yes, 638 yes, 728 yes, 745 yes, 778 yes}
+{15 yes, 62 yes, 78 yes, 193 yes, 227 yes, 240 yes, 242 yes, 252 yes, 382 yes, 433 yes, 448 yes, 515 yes, 538 yes, 576 yes, 581 yes, 582 yes, 614 yes, 621 yes, 698 yes, 756 yes}
+{254 yes, 269 yes, 433 yes, 576 yes, 585 yes, 607 yes, 638 yes, 745 yes}
+{110 yes, 442 yes, 585 yes, 594 yes, 759 yes}
+{48 yes, 295 yes, 433 yes, 585 yes, 619 yes, 638 yes, 745 yes}
+{26 yes, 54 yes, 80 yes, 89 yes, 108 yes, 118 yes, 269 yes, 278 yes, 298 yes, 458 yes, 610 yes, 633 yes, 670 yes, 684 yes}
+{80 yes, 232 yes, 414 yes, 526 yes, 559 yes, 587 yes, 631 yes}
+{82 yes, 89 yes, 117 yes, 319 yes, 458 yes, 585 yes, 614 yes, 638 yes}
+{2 yes, 8 yes, 57 yes, 81 yes, 108 yes, 295 yes, 531 yes, 559 yes, 579 yes, 585 yes, 609 yes, 660 yes}
+{33 yes, 89 yes, 108 yes, 118 yes, 201 yes, 551 yes, 613 yes, 621 yes, 660 yes}
+{57 yes, 184 yes, 245 yes, 274 yes, 473 yes, 585 yes, 604 yes}
+{108 yes, 218 yes, 221 yes, 351 yes, 433 yes, 436 yes, 535 yes, 548 yes, 549 yes, 594 yes, 662 yes, 746 yes}
+{124 yes, 218 yes, 245 yes, 638 yes, 745 yes, 763 yes, 764 yes}
+{127 yes, 356 yes, 433 yes, 638 yes, 728 yes, 745 yes}
+{32 yes, 122 yes, 168 yes, 269 yes, 454 yes, 576 yes, 587 yes, 638 yes, 660 yes, 728 yes}
+{43 yes, 180 yes, 209 yes, 282 yes, 332 yes, 341 yes, 559 yes, 585 yes, 638 yes, 695 yes, 696 yes}
+{180 yes, 224 yes, 295 yes, 398 yes, 484 yes, 490 yes, 559 yes, 561 yes, 585 yes, 607 yes, 609 yes, 638 yes, 660 yes, 662 yes, 696 yes}
+{180 yes, 282 yes, 559 yes, 585 yes, 638 yes, 660 yes}
+{42 yes, 78 yes, 85 yes, 89 yes, 104 yes, 118 yes, 184 yes, 245 yes, 265 yes, 269 yes, 278 yes, 332 yes, 458 yes, 515 yes, 587 yes, 638 yes, 699 yes}
+{45 yes, 78 yes, 89 yes, 104 yes, 105 yes, 157 yes, 184 yes, 245 yes, 268 yes, 269 yes, 278 yes, 458 yes, 515 yes, 585 yes, 745 yes}
+{108 yes, 218 yes, 245 yes, 269 yes, 439 yes, 454 yes, 472 yes, 551 yes, 587 yes}
+{89 yes, 585 yes, 609 yes, 660 yes, 764 yes}
+{745 yes}
+{269 yes, 282 yes, 428 yes, 446 yes, 458 yes, 559 yes, 607 yes, 638 yes, 660 yes}
+{46 yes, 218 yes, 442 yes, 585 yes, 594 yes, 613 yes, 622 yes, 646 yes, 746 yes}
+{191 yes, 218 yes, 257 yes, 398 yes, 585 yes}
+{269 yes, 278 yes, 356 yes, 433 yes, 638 yes}
+{222 yes, 223 yes, 295 yes, 433 yes, 434 yes, 576 yes, 585 yes, 660 yes, 728 yes, 761 yes}
+{32 yes, 57 yes, 122 yes, 168 yes, 218 yes, 245 yes, 278 yes, 295 yes, 454 yes, 475 yes, 559 yes, 585 yes, 607 yes, 638 yes, 660 yes, 745 yes}
+{269 yes, 278 yes, 576 yes, 638 yes, 660 yes, 728 yes}
+{89 yes, 96 yes, 278 yes, 369 yes, 384 yes, 458 yes, 602 yes, 638 yes, 728 yes, 745 yes}
+{85 yes, 278 yes, 433 yes, 504 yes, 638 yes}
+{81 yes, 269 yes, 282 yes, 295 yes, 457 yes, 506 yes, 638 yes, 643 yes}
+{75 yes, 168 yes, 223 yes, 269 yes, 282 yes, 454 yes, 602 yes, 607 yes, 609 yes, 638 yes, 745 yes}
+{57 yes, 278 yes, 282 yes, 374 yes, 398 yes, 559 yes, 607 yes, 660 yes, 711 yes, 728 yes, 744 yes, 745 yes}
+{46 yes, 81 yes, 89 yes, 128 yes, 269 yes, 278 yes, 295 yes, 315 yes, 359 yes, 393 yes, 480 yes, 559 yes, 607 yes, 638 yes, 678 yes, 681 yes}
+{218 yes, 305 yes, 369 yes, 430 yes, 458 yes, 472 yes, 484 yes, 778 yes}
+{8 yes, 44 yes, 78 yes, 425 yes, 450 yes, 585 yes, 638 yes, 745 yes}
+{75 yes, 115 yes, 168 yes, 269 yes, 282 yes, 387 yes, 480 yes, 484 yes, 576 yes, 612 yes, 638 yes}
+{218 yes, 245 yes, 295 yes, 305 yes, 458 yes, 472 yes, 484 yes, 515 yes, 585 yes}
+{89 yes, 91 yes, 167 yes, 218 yes, 319 yes, 389 yes, 398 yes, 433 yes, 576 yes, 585 yes, 607 yes, 745 yes}
+{89 yes, 295 yes, 433 yes, 607 yes, 638 yes, 660 yes, 698 yes}
+{32 yes, 112 yes, 269 yes, 335 yes, 638 yes, 660 yes, 745 yes}
+{168 yes, 218 yes, 382 yes, 559 yes, 585 yes, 607 yes, 638 yes, 660 yes, 728 yes, 745 yes}
+{89 yes, 96 yes, 145 yes, 463 yes, 525 yes, 528 yes, 540 yes, 559 yes, 607 yes, 609 yes, 638 yes, 651 yes}
+{67 yes, 89 yes, 96 yes, 106 yes, 458 yes, 638 yes, 698 yes, 713 yes, 745 yes}
+{98 yes, 180 yes, 295 yes, 561 yes, 585 yes, 609 yes, 638 yes, 660 yes}
+{89 yes, 278 yes, 433 yes, 442 yes, 607 yes, 609 yes, 633 yes, 638 yes, 743 yes, 746 yes}
+{104 yes, 191 yes, 207 yes, 295 yes, 314 yes, 326 yes, 430 yes, 538 yes, 713 yes}
+{224 yes, 559 yes, 585 yes, 660 yes}
+{89 yes, 185 yes, 278 yes, 359 yes, 559 yes, 585 yes, 660 yes}
+{282 yes, 585 yes, 660 yes, 736 yes}
+{282 yes, 332 yes, 538 yes, 559 yes}
+{150 yes, 218 yes, 425 yes, 481 yes, 491 yes, 530 yes, 660 yes, 736 yes}
+{274 yes, 330 yes, 385 yes, 473 yes, 518 yes, 585 yes, 660 yes, 745 yes}
+{384 yes, 559 yes, 576 yes, 638 yes, 660 yes}
+{385 yes, 433 yes, 559 yes, 638 yes, 660 yes}
+{218 yes, 245 yes, 337 yes, 369 yes, 375 yes, 414 yes, 472 yes, 480 yes, 507 yes, 551 yes, 576 yes, 778 yes}
+{78 yes, 106 yes, 430 yes, 458 yes, 587 yes, 745 yes}
+{78 yes, 176 yes, 277 yes, 286 yes, 385 yes, 498 yes, 660 yes, 745 yes}
+{42 yes, 110 yes, 191 yes, 385 yes, 543 yes, 588 yes, 651 yes, 746 yes, 759 yes}
+{104 yes, 161 yes, 454 yes, 458 yes, 489 yes, 576 yes, 585 yes, 619 yes, 638 yes, 660 yes}
+{85 yes, 193 yes, 278 yes, 433 yes, 540 yes, 607 yes, 622 yes, 631 yes, 638 yes, 651 yes}
+{92 yes, 96 yes, 269 yes, 274 yes, 278 yes, 384 yes, 428 yes, 430 yes, 458 yes, 484 yes, 559 yes, 561 yes, 579 yes, 585 yes, 607 yes, 638 yes, 660 yes, 696 yes, 728 yes, 745 yes}
+{89 yes, 347 yes, 398 yes, 433 yes, 538 yes, 607 yes, 660 yes, 696 yes, 745 yes}
+{269 yes, 433 yes, 607 yes, 609 yes, 638 yes, 660 yes}
+{191 yes, 269 yes, 433 yes, 576 yes, 638 yes, 660 yes, 761 yes}
+{185 yes, 190 yes, 191 yes, 278 yes, 295 yes, 334 yes, 433 yes, 633 yes, 660 yes}
+{269 yes, 282 yes, 295 yes, 559 yes, 607 yes, 638 yes, 655 yes}
+{133 yes, 400 yes, 428 yes, 559 yes}
+{81 yes, 213 yes, 218 yes, 220 yes, 319 yes, 484 yes, 607 yes, 638 yes, 651 yes, 660 yes, 728 yes}
+{94 yes, 132 yes, 209 yes, 269 yes, 334 yes, 400 yes, 428 yes}
+{89 yes, 180 yes, 189 yes, 213 yes, 269 yes, 313 yes, 449 yes, 528 yes, 561 yes, 585 yes, 638 yes, 660 yes}
+{282 yes, 458 yes, 561 yes, 638 yes}
+{96 yes, 269 yes, 278 yes, 306 yes, 369 yes, 385 yes, 458 yes, 480 yes, 559 yes, 585 yes, 638 yes, 660 yes, 745 yes}
+{78 yes, 274 yes, 428 yes, 473 yes, 559 yes, 660 yes}
+{67 yes, 89 yes, 108 yes, 269 yes, 278 yes, 290 yes, 433 yes, 532 yes, 559 yes, 607 yes, 621 yes, 660 yes, 758 yes}
+{9 yes, 209 yes, 269 yes, 521 yes, 607 yes, 613 yes, 638 yes, 660 yes}
+{124 yes, 278 yes, 384 yes, 433 yes, 551 yes, 576 yes, 585 yes, 638 yes, 651 yes}
+{33 yes, 89 yes, 108 yes, 110 yes, 213 yes, 295 yes, 475 yes, 484 yes, 638 yes, 698 yes}
+{7 yes, 75 yes, 124 yes, 173 yes, 269 yes, 282 yes, 402 yes, 585 yes, 638 yes, 728 yes}
+{184 yes, 245 yes, 295 yes, 424 yes, 445 yes, 454 yes, 638 yes, 713 yes, 745 yes}
+{278 yes, 457 yes, 559 yes, 587 yes, 607 yes, 638 yes, 728 yes}
+{89 yes, 118 yes, 168 yes, 295 yes, 454 yes, 458 yes, 576 yes, 638 yes, 660 yes, 745 yes, 754 yes}
+{209 yes, 269 yes, 433 yes, 434 yes, 484 yes, 559 yes, 607 yes, 638 yes, 660 yes, 687 yes}
+{193 yes, 638 yes, 660 yes}
+{209 yes, 273 yes, 313 yes, 341 yes, 369 yes, 428 yes, 473 yes, 585 yes, 660 yes, 745 yes, 759 yes}
+{191 yes, 398 yes, 433 yes, 465 yes, 585 yes}
+{43 yes, 53 yes, 89 yes, 185 yes, 229 yes, 269 yes, 278 yes, 404 yes, 458 yes, 631 yes, 689 yes}
+{191 yes, 433 yes, 621 yes, 660 yes}
+{607 yes, 638 yes, 651 yes, 708 yes}
+{278 yes, 400 yes, 454 yes, 458 yes, 587 yes, 609 yes, 660 yes}
+{191 yes, 206 yes, 218 yes, 245 yes, 291 yes, 369 yes, 428 yes, 442 yes, 454 yes, 594 yes, 638 yes, 778 yes}
+{31 yes, 218 yes, 745 yes}
+{278 yes, 585 yes, 660 yes, 745 yes}
+{31 yes, 83 yes, 218 yes, 332 yes, 393 yes, 576 yes, 638 yes, 660 yes, 745 yes}
+{209 yes, 278 yes, 561 yes, 638 yes, 696 yes, 744 yes}
+{159 yes, 189 yes, 414 yes, 581 yes, 744 yes}
+{78 yes, 95 yes, 274 yes, 330 yes, 473 yes, 660 yes, 702 yes, 745 yes}
+{306 yes, 458 yes, 638 yes, 689 yes, 696 yes, 728 yes, 786 yes}
+{95 yes, 107 yes, 108 yes, 218 yes, 274 yes, 281 yes, 454 yes, 516 yes, 555 yes, 585 yes, 607 yes, 638 yes, 660 yes}
+{168 yes, 180 yes, 218 yes, 278 yes, 374 yes, 472 yes, 480 yes, 541 yes, 561 yes, 613 yes, 660 yes}
+{80 yes, 180 yes, 269 yes, 278 yes, 433 yes, 480 yes, 534 yes, 549 yes, 607 yes}
+{364 yes, 561 yes, 564 yes, 695 yes, 756 yes}
+{80 yes, 109 yes, 178 yes, 278 yes, 295 yes, 532 yes, 548 yes, 631 yes, 638 yes, 654 yes, 660 yes, 698 yes}
+{81 yes, 89 yes, 180 yes, 278 yes, 285 yes, 467 yes, 532 yes, 559 yes, 638 yes, 690 yes}
+{58 yes, 278 yes, 434 yes, 559 yes, 594 yes, 683 yes, 695 yes, 698 yes, 727 yes, 728 yes}
+{89 yes, 180 yes, 218 yes, 454 yes, 458 yes, 515 yes, 559 yes, 585 yes, 660 yes, 731 yes}
+{238 yes, 361 yes, 385 yes, 386 yes, 432 yes, 482 yes, 660 yes}
+{26 yes, 168 yes, 211 yes, 269 yes, 285 yes, 400 yes, 581 yes, 638 yes, 716 yes, 745 yes}
+{30 yes, 78 yes, 218 yes, 277 yes, 367 yes, 438 yes, 634 yes, 660 yes}
+{359 yes, 523 yes, 660 yes, 745 yes}
+{180 yes, 193 yes, 227 yes, 282 yes, 345 yes, 437 yes, 559 yes, 585 yes, 621 yes, 651 yes, 695 yes}
+{269 yes, 295 yes, 414 yes, 607 yes}
+{295 yes, 428 yes, 554 yes}
+{180 yes, 451 yes, 669 yes}
+{122 yes, 167 yes, 214 yes, 282 yes, 454 yes, 578 yes, 638 yes}
+{122 yes, 168 yes, 280 yes, 576 yes, 638 yes, 728 yes}
+{269 yes, 282 yes, 384 yes, 433 yes, 497 yes, 638 yes, 698 yes}
+{218 yes, 245 yes, 297 yes, 433 yes, 506 yes, 551 yes, 587 yes, 638 yes, 660 yes, 728 yes, 745 yes}
+{41 yes, 110 yes, 111 yes, 218 yes, 245 yes, 278 yes, 374 yes, 433 yes, 454 yes, 458 yes, 472 yes, 484 yes, 594 yes, 638 yes, 660 yes}
+{157 yes, 218 yes, 245 yes, 295 yes, 376 yes, 382 yes, 433 yes, 458 yes, 472 yes, 484 yes, 506 yes, 551 yes, 638 yes, 660 yes, 745 yes}
+{89 yes, 96 yes, 104 yes, 288 yes, 332 yes, 484 yes, 585 yes, 614 yes, 619 yes, 638 yes, 698 yes, 745 yes}
+{89 yes, 433 yes, 576 yes, 609 yes, 638 yes, 660 yes, 728 yes}
+{180 yes, 313 yes, 585 yes, 660 yes, 766 yes}
+{218 yes, 245 yes, 305 yes, 458 yes, 472 yes, 484 yes, 515 yes, 585 yes}
+{165 yes, 218 yes, 245 yes, 383 yes, 454 yes, 472 yes}
+{65 yes, 81 yes, 184 yes, 218 yes, 245 yes, 269 yes, 304 yes, 305 yes, 310 yes, 369 yes, 452 yes, 458 yes, 480 yes, 484 yes, 515 yes, 561 yes, 585 yes, 638 yes, 660 yes, 778 yes}
+{81 yes, 89 yes, 122 yes, 168 yes, 269 yes, 278 yes, 295 yes, 359 yes, 442 yes, 480 yes, 585 yes, 613 yes, 660 yes, 695 yes, 713 yes}
+{35 yes, 168 yes, 284 yes, 638 yes, 660 yes, 741 yes, 745 yes}
+{81 yes, 159 yes, 191 yes, 218 yes, 245 yes, 295 yes, 398 yes, 428 yes, 576 yes}
+{92 yes, 168 yes, 385 yes, 386 yes, 745 yes, 763 yes}
+{75 yes, 122 yes, 269 yes, 385 yes, 638 yes, 660 yes, 745 yes}
+{385 yes, 433 yes, 638 yes, 745 yes}
+{57 yes, 161 yes, 240 yes, 385 yes, 457 yes, 570 yes, 594 yes, 638 yes, 679 yes, 698 yes, 745 yes}
+{23 yes, 269 yes, 400 yes, 457 yes, 607 yes, 638 yes}
+{428 yes, 591 yes}
+{559 yes, 638 yes, 660 yes}
+{89 yes, 93 yes, 349 yes, 561 yes, 695 yes, 696 yes, 786 yes}
+{75 yes, 191 yes, 434 yes, 609 yes, 638 yes, 736 yes}
+{168 yes, 269 yes, 282 yes, 434 yes, 458 yes, 541 yes, 576 yes, 585 yes, 607 yes, 660 yes, 698 yes, 726 yes, 728 yes, 733 yes, 745 yes}
+{405 yes, 454 yes, 458 yes, 475 yes, 638 yes}
+{91 yes, 433 yes, 559 yes, 585 yes, 619 yes}
+{282 yes, 370 yes, 458 yes, 561 yes, 585 yes, 607 yes, 649 yes, 702 yes, 728 yes, 745 yes}
+{146 yes, 423 yes}
+{11 yes, 385 yes}
+{301 yes, 385 yes, 422 yes, 660 yes, 745 yes}
+{89 yes, 185 yes, 343 yes, 433 yes, 561 yes, 585 yes, 660 yes}
+{36 yes, 263 yes, 332 yes, 345 yes, 427 yes, 628 yes, 749 yes}
+{343 yes, 345 yes, 427 yes, 430 yes, 660 yes, 723 yes}
+{7 yes, 30 yes, 78 yes, 222 yes, 427 yes, 585 yes, 660 yes, 721 yes}
+{222 yes, 329 yes, 343 yes, 427 yes, 585 yes, 660 yes, 767 yes}
+{36 yes, 332 yes, 343 yes, 345 yes, 427 yes, 628 yes}
+{294 yes, 438 yes, 641 yes, 660 yes, 720 yes, 745 yes}
+{269 yes, 385 yes, 581 yes, 594 yes, 613 yes, 638 yes, 660 yes}
+{295 yes, 434 yes, 614 yes, 646 yes, 698 yes, 745 yes}
+{64 yes, 587 yes, 706 yes}
+{368 yes, 433 yes, 559 yes, 585 yes, 660 yes, 669 yes, 745 yes}
+{57 yes, 209 yes, 222 yes, 473 yes, 559 yes, 585 yes, 638 yes, 728 yes}
+{319 yes, 576 yes, 614 yes, 638 yes, 651 yes, 728 yes}
+{21 yes, 180 yes, 434 yes, 556 yes, 559 yes, 609 yes}
+{95 yes, 272 yes, 278 yes, 434 yes, 559 yes, 609 yes, 638 yes, 642 yes, 660 yes, 698 yes, 728 yes, 745 yes}
+{89 yes, 166 yes, 189 yes, 282 yes, 559 yes, 587 yes, 662 yes, 756 yes}
+{269 yes, 332 yes, 434 yes, 446 yes, 453 yes, 559 yes, 611 yes, 695 yes, 745 yes}
+{168 yes, 356 yes, 396 yes, 576 yes, 638 yes, 660 yes, 728 yes, 745 yes}
+{75 yes, 122 yes, 576 yes}
+{43 yes, 81 yes, 89 yes, 269 yes, 278 yes, 319 yes, 398 yes, 412 yes, 434 yes, 457 yes, 531 yes, 607 yes, 660 yes}
+{134 yes, 160 yes, 457 yes, 484 yes, 516 yes, 581 yes, 585 yes, 594 yes, 643 yes, 756 yes}
+{278 yes, 602 yes, 609 yes, 660 yes, 728 yes, 745 yes, 756 yes}
+{191 yes, 295 yes, 434 yes, 442 yes, 698 yes, 745 yes}
+{434 yes, 594 yes, 614 yes, 698 yes, 745 yes}
+{159 yes, 189 yes, 269 yes, 278 yes, 295 yes, 356 yes, 433 yes, 541 yes, 609 yes, 780 yes}
+{39 yes, 75 yes, 295 yes, 433 yes, 434 yes, 576 yes, 599 yes, 638 yes}
+{68 yes, 80 yes, 222 yes, 245 yes, 346 yes, 454 yes, 497 yes, 540 yes, 638 yes}
+{61 yes, 284 yes, 563 yes, 660 yes}
+{122 yes, 168 yes, 218 yes, 269 yes, 295 yes, 438 yes, 585 yes, 609 yes, 621 yes, 660 yes}
+{28 yes, 78 yes, 108 yes, 218 yes, 442 yes, 458 yes, 551 yes, 576 yes, 585 yes, 587 yes, 701 yes, 703 yes, 728 yes, 778 yes}
+{81 yes, 157 yes, 281 yes, 458 yes, 531 yes, 607 yes, 638 yes}
+{269 yes, 313 yes, 378 yes, 545 yes, 638 yes, 660 yes, 728 yes}
+{194 yes, 338 yes, 576 yes, 638 yes}
+{134 yes, 236 yes, 269 yes, 278 yes, 480 yes, 484 yes, 486 yes, 560 yes, 638 yes}
+{209 yes, 269 yes, 640 yes, 728 yes, 745 yes, 758 yes, 761 yes}
+{24 yes, 51 yes, 515 yes, 585 yes, 638 yes, 660 yes, 745 yes, 758 yes}
+{282 yes, 504 yes, 515 yes, 576 yes, 638 yes, 660 yes}
+{44 yes, 433 yes, 458 yes, 515 yes, 614 yes, 638 yes, 660 yes, 730 yes}
+{30 yes, 134 yes, 168 yes, 245 yes, 269 yes, 315 yes, 353 yes, 430 yes, 470 yes, 484 yes, 585 yes, 607 yes, 614 yes, 638 yes, 660 yes, 729 yes, 745 yes}
+{152 yes, 287 yes, 433 yes, 489 yes, 576 yes, 756 yes}
+{434 yes, 736 yes}
+{57 yes, 274 yes, 374 yes, 428 yes, 433 yes, 447 yes, 559 yes, 607 yes, 609 yes, 638 yes, 662 yes, 679 yes, 681 yes}
+{175 yes, 209 yes, 269 yes, 343 yes, 430 yes, 609 yes, 638 yes, 660 yes}
+{451 yes, 522 yes}
+{213 yes, 313 yes, 638 yes, 659 yes}
+{75 yes, 89 yes, 96 yes, 218 yes, 228 yes, 241 yes, 291 yes, 458 yes, 585 yes, 745 yes, 755 yes}
+{7 yes, 28 yes, 37 yes, 81 yes, 218 yes, 428 yes, 587 yes, 745 yes}
+{37 yes, 81 yes, 245 yes, 428 yes, 442 yes, 454 yes, 515 yes, 745 yes}
+{28 yes, 81 yes, 89 yes, 92 yes, 194 yes, 218 yes, 245 yes, 428 yes, 451 yes, 576 yes, 585 yes, 594 yes, 638 yes, 728 yes, 745 yes, 778 yes}
+{278 yes, 455 yes, 638 yes}
+{108 yes, 218 yes, 369 yes, 458 yes, 484 yes, 585 yes, 699 yes}
+{451 yes, 585 yes, 619 yes}
+{580 yes, 585 yes, 609 yes}
+{274 yes, 278 yes, 414 yes, 420 yes, 465 yes, 612 yes, 745 yes, 756 yes}
+{61 yes, 420 yes, 494 yes, 745 yes}
+{385 yes, 460 yes, 463 yes, 676 yes}
+{433 yes, 609 yes, 638 yes, 646 yes}
+{108 yes, 190 yes, 218 yes, 295 yes, 551 yes, 658 yes, 660 yes}
+{109 yes, 193 yes, 218 yes, 433 yes, 458 yes, 551 yes, 638 yes, 660 yes}
+{108 yes, 191 yes, 218 yes, 433 yes, 458 yes, 484 yes, 551 yes, 560 yes, 585 yes, 638 yes, 660 yes, 728 yes, 745 yes}
+{81 yes, 218 yes, 245 yes, 430 yes, 458 yes, 469 yes}
+{385 yes, 433 yes, 469 yes, 544 yes, 559 yes, 600 yes, 743 yes}
+{269 yes, 295 yes, 334 yes}
+{218 yes, 245 yes, 454 yes, 472 yes, 587 yes, 605 yes, 622 yes, 745 yes}
+{7 yes, 121 yes, 218 yes, 306 yes, 374 yes, 472 yes, 480 yes}
+{118 yes, 123 yes, 213 yes, 218 yes, 359 yes, 585 yes, 619 yes, 651 yes}
+{195 yes, 451 yes, 479 yes}
+{136 yes, 167 yes, 213 yes, 269 yes, 331 yes, 332 yes, 480 yes, 607 yes, 638 yes}
+{7 yes, 61 yes, 75 yes, 108 yes, 136 yes, 180 yes, 189 yes, 190 yes, 213 yes, 278 yes, 295 yes, 306 yes, 331 yes, 561 yes, 607 yes, 680 yes}
+{451 yes, 619 yes, 745 yes}
+{619 yes, 745 yes}
+{75 yes, 168 yes, 209 yes, 269 yes, 282 yes, 638 yes, 737 yes, 745 yes}
+{42 yes, 102 yes, 142 yes, 278 yes, 282 yes, 374 yes, 485 yes, 561 yes, 585 yes, 660 yes}
+{282 yes, 559 yes, 585 yes, 660 yes}
+{147 yes, 282 yes, 537 yes, 561 yes, 660 yes, 745 yes}
+{231 yes, 344 yes, 430 yes, 663 yes, 685 yes, 745 yes}
+{306 yes, 501 yes, 564 yes, 585 yes, 607 yes, 660 yes, 736 yes}
+{466 yes, 499 yes, 624 yes}
+{65 yes, 81 yes, 218 yes, 245 yes, 369 yes, 384 yes, 446 yes, 454 yes, 507 yes, 528 yes, 587 yes, 638 yes, 778 yes}
+{81 yes, 89 yes, 269 yes, 278 yes, 295 yes, 319 yes, 607 yes, 638 yes, 660 yes, 728 yes, 745 yes}
+{215 yes, 218 yes, 278 yes, 319 yes, 398 yes, 561 yes, 607 yes, 638 yes, 651 yes, 670 yes}
+{99 yes, 269 yes, 457 yes, 493 yes, 532 yes, 539 yes, 586 yes, 638 yes}
+{131 yes, 168 yes, 319 yes, 433 yes, 523 yes, 585 yes, 638 yes, 660 yes, 745 yes}
+{168 yes, 189 yes, 269 yes, 278 yes, 331 yes, 332 yes, 458 yes, 506 yes, 541 yes, 587 yes, 617 yes, 638 yes, 779 yes}
+{269 yes, 278 yes, 382 yes, 508 yes, 576 yes, 607 yes, 623 yes, 638 yes}
+{134 yes, 138 yes, 167 yes, 213 yes, 282 yes, 295 yes, 319 yes, 470 yes, 480 yes, 607 yes, 638 yes, 777 yes}
+{89 yes, 119 yes, 180 yes, 306 yes, 428 yes, 458 yes, 515 yes, 585 yes, 745 yes}
+{61 yes, 427 yes}
+{31 yes, 75 yes, 143 yes, 278 yes, 385 yes, 452 yes, 498 yes, 524 yes, 555 yes, 585 yes, 660 yes, 676 yes, 721 yes}
+{191 yes, 433 yes, 523 yes, 585 yes, 638 yes}
+{193 yes, 269 yes, 278 yes, 433 yes, 505 yes, 537 yes, 598 yes, 621 yes, 660 yes}
+{218 yes, 261 yes, 266 yes, 531 yes}
+{192 yes, 207 yes, 433 yes, 576 yes, 638 yes, 660 yes, 745 yes}
+{269 yes, 278 yes, 433 yes, 457 yes, 458 yes, 533 yes, 540 yes, 594 yes, 607 yes, 609 yes, 638 yes}
+{30 yes, 43 yes, 161 yes, 218 yes, 311 yes, 312 yes, 497 yes, 535 yes, 540 yes, 587 yes, 651 yes, 665 yes, 670 yes, 698 yes}
+{89 yes, 282 yes, 289 yes, 380 yes, 390 yes, 433 yes, 608 yes, 638 yes, 736 yes}
+{78 yes, 480 yes, 638 yes}
+{39 yes, 58 yes, 161 yes, 182 yes, 243 yes, 293 yes, 454 yes, 557 yes, 607 yes}
+{89 yes, 185 yes, 585 yes, 614 yes, 638 yes, 730 yes}
+{594 yes, 615 yes, 728 yes}
+{434 yes, 594 yes, 716 yes}
+{42 yes, 75 yes, 182 yes, 365 yes, 457 yes, 600 yes}
+{434 yes, 576 yes, 638 yes}
+{457 yes, 581 yes, 600 yes, 637 yes, 744 yes}
+{68 yes, 167 yes, 190 yes, 235 yes, 269 yes, 382 yes, 433 yes, 576 yes, 614 yes, 651 yes, 660 yes, 665 yes, 696 yes, 698 yes, 745 yes}
+{274 yes, 281 yes, 484 yes, 568 yes, 638 yes}
+{28 yes, 75 yes, 114 yes, 157 yes, 213 yes, 269 yes, 278 yes, 638 yes, 695 yes, 746 yes}
+{28 yes, 78 yes, 114 yes, 178 yes, 269 yes, 282 yes, 638 yes, 705 yes, 746 yes}
+{89 yes, 194 yes, 218 yes, 224 yes, 278 yes, 324 yes, 585 yes, 638 yes, 736 yes, 763 yes}
+{207 yes, 208 yes, 278 yes, 440 yes, 745 yes}
+{96 yes, 400 yes, 587 yes, 679 yes, 700 yes, 778 yes}
+{276 yes, 344 yes, 384 yes}
+{344 yes, 463 yes, 576 yes}
+{41 yes, 74 yes, 88 yes, 128 yes, 162 yes, 225 yes, 576 yes, 638 yes, 657 yes, 778 yes}
+{75 yes, 78 yes, 144 yes, 161 yes, 269 yes, 278 yes, 295 yes, 467 yes, 576 yes, 599 yes, 609 yes, 638 yes}
+{303 yes, 344 yes, 463 yes, 576 yes}
+{103 yes, 269 yes, 313 yes, 436 yes, 454 yes, 458 yes, 551 yes, 576 yes, 622 yes, 638 yes}
+{161 yes, 219 yes, 278 yes, 532 yes, 561 yes, 576 yes, 581 yes, 594 yes, 607 yes, 609 yes, 638 yes, 665 yes}
+{122 yes, 484 yes, 585 yes}
+{30 yes, 218 yes, 245 yes, 430 yes, 454 yes, 585 yes, 660 yes, 720 yes}
+{108 yes, 278 yes, 433 yes, 457 yes, 638 yes, 745 yes}
+{278 yes, 480 yes, 561 yes, 594 yes, 638 yes, 660 yes, 695 yes, 696 yes, 752 yes}
+{269 yes, 278 yes, 512 yes, 576 yes, 638 yes, 728 yes}
+{78 yes, 457 yes, 458 yes, 484 yes, 585 yes, 638 yes, 786 yes}
+{78 yes, 245 yes, 385 yes, 457 yes, 484 yes, 585 yes, 638 yes, 786 yes}
+{58 yes, 180 yes, 278 yes, 399 yes, 433 yes, 596 yes, 607 yes}
+{89 yes, 207 yes, 213 yes, 255 yes, 322 yes, 332 yes, 451 yes, 559 yes, 585 yes, 638 yes, 698 yes, 745 yes}
+{7 yes, 91 yes, 214 yes, 269 yes, 329 yes, 433 yes, 434 yes, 474 yes, 587 yes, 601 yes, 638 yes, 728 yes, 747 yes, 769 yes}
+{414 yes, 457 yes, 550 yes, 612 yes, 614 yes, 728 yes}
+{22 yes, 164 yes, 318 yes, 374 yes, 539 yes, 559 yes, 607 yes, 638 yes, 660 yes, 699 yes, 709 yes, 728 yes}
+{269 yes, 278 yes, 399 yes, 457 yes, 458 yes, 475 yes, 587 yes, 638 yes, 711 yes, 716 yes, 743 yes, 765 yes}
+{139 yes, 400 yes, 489 yes, 607 yes, 609 yes, 708 yes, 742 yes}
+{3 yes, 745 yes, 747 yes}
+{75 yes, 168 yes, 274 yes, 278 yes, 585 yes, 638 yes, 736 yes, 745 yes}
+{4 yes, 559 yes, 594 yes, 607 yes, 609 yes, 638 yes}
+{600 yes}
+{207 yes, 295 yes, 398 yes, 600 yes, 745 yes}
+{10 yes, 72 yes, 306 yes, 426 yes, 457 yes, 600 yes, 614 yes, 730 yes}
+{278 yes, 343 yes, 660 yes}
+{428 yes, 545 yes, 638 yes, 759 yes}
+{122 yes, 269 yes, 282 yes, 454 yes, 576 yes, 621 yes, 660 yes}
+{215 yes, 221 yes, 269 yes, 278 yes, 457 yes, 560 yes, 594 yes, 607 yes, 762 yes}
+{222 yes, 555 yes, 622 yes}
+{132 yes, 168 yes, 194 yes, 218 yes, 269 yes, 278 yes, 334 yes, 363 yes, 374 yes, 399 yes, 428 yes, 433 yes, 594 yes, 606 yes, 622 yes, 638 yes, 660 yes, 695 yes, 715 yes, 728 yes, 737 yes}
+{78 yes, 218 yes, 222 yes, 245 yes, 519 yes, 660 yes, 740 yes, 745 yes}
+{168 yes, 191 yes, 255 yes, 278 yes, 295 yes, 378 yes, 433 yes, 607 yes, 638 yes, 660 yes}
+{33 yes, 104 yes, 110 yes, 161 yes, 168 yes, 189 yes, 559 yes, 615 yes, 638 yes, 698 yes, 745 yes}
+{29 yes, 89 yes, 120 yes, 269 yes, 728 yes, 735 yes, 745 yes}
+{745 yes}
+{137 yes, 180 yes, 295 yes, 434 yes, 451 yes, 594 yes, 698 yes, 712 yes, 745 yes}
+{367 yes, 438 yes, 660 yes, 745 yes}
+{122 yes, 191 yes, 218 yes, 295 yes, 398 yes, 433 yes, 451 yes}
+{86 yes, 168 yes, 262 yes, 282 yes, 331 yes, 354 yes, 454 yes, 622 yes}
+{67 yes, 127 yes, 190 yes, 218 yes, 269 yes, 324 yes, 331 yes, 363 yes, 454 yes, 470 yes, 560 yes, 585 yes, 607 yes, 638 yes, 651 yes, 713 yes, 745 yes, 759 yes, 782 yes}
+{218 yes, 257 yes, 324 yes, 407 yes, 458 yes, 638 yes, 728 yes}
+{61 yes, 308 yes, 325 yes, 332 yes, 428 yes, 489 yes, 587 yes, 607 yes, 638 yes, 672 yes, 717 yes, 744 yes, 756 yes}
+{141 yes, 168 yes, 269 yes, 607 yes, 625 yes, 638 yes, 660 yes}
+{176 yes, 451 yes, 539 yes, 630 yes, 669 yes}
+{385 yes, 422 yes, 463 yes, 489 yes, 602 yes, 630 yes, 640 yes, 660 yes, 669 yes, 742 yes}
+{57 yes, 139 yes, 385 yes, 546 yes, 630 yes, 744 yes, 745 yes, 770 yes}
+{85 yes, 94 yes, 110 yes, 161 yes, 239 yes, 240 yes, 269 yes, 278 yes, 479 yes, 528 yes, 587 yes, 594 yes, 603 yes, 607 yes, 631 yes, 633 yes, 638 yes, 698 yes}
+{43 yes, 75 yes, 89 yes, 130 yes, 161 yes, 189 yes, 269 yes, 278 yes, 414 yes, 448 yes, 463 yes, 559 yes, 609 yes, 698 yes, 773 yes}
+{20 yes, 43 yes, 75 yes, 95 yes, 278 yes, 479 yes, 532 yes, 559 yes, 563 yes, 600 yes, 607 yes, 614 yes, 631 yes, 633 yes, 638 yes}
+{32 yes, 128 yes, 295 yes, 607 yes, 609 yes, 638 yes, 660 yes, 734 yes}
+{278 yes, 332 yes, 514 yes, 607 yes, 612 yes, 633 yes, 638 yes, 696 yes, 730 yes}
+{332 yes, 559 yes, 585 yes, 594 yes, 607 yes, 609 yes, 633 yes, 638 yes}
+{89 yes, 434 yes, 594 yes, 638 yes, 646 yes, 660 yes, 698 yes, 745 yes}
+{32 yes, 68 yes, 269 yes, 295 yes, 607 yes, 609 yes, 638 yes, 648 yes, 698 yes}
+{89 yes, 185 yes, 191 yes, 278 yes, 295 yes, 359 yes, 559 yes, 609 yes, 631 yes, 660 yes, 696 yes, 745 yes}
+{58 yes, 109 yes, 191 yes, 278 yes, 295 yes, 359 yes, 381 yes, 433 yes, 489 yes, 559 yes, 576 yes, 607 yes, 660 yes}
+{282 yes, 340 yes, 561 yes, 594 yes, 638 yes, 660 yes, 695 yes}
+{75 yes, 282 yes, 460 yes, 638 yes}
+{89 yes, 638 yes}
+{168 yes, 269 yes, 282 yes, 295 yes, 549 yes, 561 yes, 607 yes, 698 yes, 745 yes}
+{180 yes, 551 yes, 559 yes, 585 yes, 644 yes, 660 yes, 745 yes}
+{180 yes, 418 yes, 428 yes, 451 yes, 644 yes, 760 yes}
+{278 yes, 372 yes, 428 yes, 451 yes, 551 yes, 559 yes, 622 yes}
+{7 yes, 30 yes, 31 yes, 79 yes, 156 yes, 218 yes, 309 yes, 310 yes, 313 yes, 317 yes, 385 yes, 585 yes, 660 yes, 716 yes, 739 yes}
+{127 yes, 269 yes, 457 yes, 600 yes, 745 yes}
+{95 yes, 269 yes, 385 yes, 428 yes}
+{97 yes, 454 yes, 535 yes, 638 yes, 660 yes}
+{8 yes, 12 yes, 30 yes, 31 yes, 221 yes, 245 yes, 307 yes, 309 yes, 310 yes, 530 yes, 585 yes, 660 yes, 720 yes}
+{147 yes, 161 yes, 295 yes, 306 yes, 355 yes, 448 yes, 468 yes, 559 yes, 607 yes, 660 yes, 696 yes, 728 yes}
+{40 yes, 95 yes, 269 yes, 415 yes, 457 yes, 524 yes, 565 yes, 642 yes, 745 yes, 756 yes, 759 yes, 782 yes}
+{54 yes, 131 yes, 312 yes, 400 yes, 474 yes, 475 yes, 484 yes, 531 yes, 584 yes}
+{108 yes, 245 yes, 298 yes, 457 yes, 458 yes, 587 yes, 638 yes, 660 yes, 745 yes}
+{428 yes, 655 yes, 695 yes}
+{58 yes, 336 yes, 428 yes, 451 yes, 669 yes, 698 yes}
+{136 yes, 414 yes, 574 yes, 607 yes, 609 yes, 698 yes}
+{128 yes, 129 yes, 274 yes, 281 yes, 295 yes, 390 yes, 428 yes, 559 yes, 607 yes, 619 yes, 660 yes, 708 yes, 745 yes}
+{189 yes, 258 yes, 478 yes, 532 yes, 594 yes, 609 yes, 638 yes, 713 yes}
+{585 yes, 638 yes, 646 yes, 660 yes}
+{191 yes, 609 yes, 638 yes, 646 yes}
+{91 yes, 131 yes, 269 yes, 282 yes, 414 yes, 437 yes, 457 yes, 484 yes, 585 yes}
+{194 yes, 338 yes, 428 yes, 637 yes, 638 yes, 764 yes}
+{433 yes, 454 yes, 458 yes, 551 yes, 576 yes, 585 yes, 638 yes, 660 yes}
+{89 yes, 96 yes, 106 yes, 168 yes, 218 yes, 257 yes, 295 yes, 298 yes, 319 yes, 442 yes, 585 yes, 745 yes, 759 yes}
+{269 yes, 282 yes, 289 yes, 385 yes, 559 yes, 581 yes, 594 yes, 613 yes, 638 yes, 660 yes, 771 yes}
+{489 yes, 609 yes, 638 yes, 647 yes}
+{62 yes, 85 yes, 98 yes, 110 yes, 161 yes, 470 yes, 594 yes, 638 yes, 660 yes, 693 yes, 756 yes, 757 yes}
+{122 yes, 269 yes, 638 yes, 660 yes, 745 yes, 765 yes}
+{168 yes, 211 yes, 229 yes, 269 yes, 278 yes, 295 yes, 332 yes, 467 yes, 614 yes, 638 yes, 661 yes, 717 yes, 728 yes, 745 yes}
+{180 yes, 327 yes, 398 yes, 428 yes, 489 yes, 609 yes, 622 yes, 743 yes, 760 yes}
+{168 yes, 190 yes, 191 yes, 218 yes, 278 yes, 319 yes, 398 yes, 433 yes, 576 yes, 631 yes, 660 yes}
+{745 yes, 753 yes}
+{33 yes, 96 yes, 157 yes, 295 yes, 298 yes, 445 yes, 458 yes, 626 yes, 638 yes, 660 yes}
+{33 yes, 43 yes, 134 yes, 250 yes, 433 yes, 442 yes, 638 yes, 646 yes, 660 yes, 698 yes, 745 yes, 746 yes}
+{33 yes, 43 yes, 49 yes, 168 yes, 269 yes, 295 yes, 414 yes, 442 yes, 457 yes, 662 yes, 745 yes, 746 yes}
+{302 yes, 345 yes, 400 yes, 606 yes, 660 yes, 722 yes}
+{25 yes, 229 yes, 451 yes, 594 yes, 745 yes, 752 yes}
+{171 yes, 180 yes, 282 yes, 295 yes, 559 yes, 576 yes, 585 yes, 622 yes, 638 yes, 660 yes}
+{451 yes, 489 yes, 630 yes, 638 yes, 669 yes}
+{22 yes, 58 yes, 176 yes, 180 yes, 422 yes, 602 yes, 622 yes, 630 yes}
+{89 yes, 180 yes, 213 yes, 295 yes, 384 yes, 451 yes, 540 yes, 559 yes, 585 yes, 619 yes, 660 yes, 745 yes}
+{407 yes, 559 yes, 585 yes, 660 yes}
+{91 yes, 385 yes, 519 yes, 559 yes, 561 yes, 585 yes, 600 yes, 619 yes, 660 yes, 669 yes, 745 yes}
+{559 yes, 562 yes, 585 yes, 660 yes}
+{89 yes, 95 yes, 180 yes, 224 yes, 295 yes, 349 yes, 398 yes, 456 yes, 461 yes, 540 yes, 541 yes, 559 yes, 609 yes, 610 yes, 638 yes, 660 yes, 669 yes, 708 yes, 717 yes, 742 yes, 783 yes}
+{22 yes, 176 yes, 385 yes, 489 yes, 553 yes, 559 yes, 609 yes, 638 yes, 708 yes, 744 yes}
+{94 yes, 143 yes, 181 yes, 365 yes, 391 yes, 452 yes, 585 yes, 607 yes, 638 yes}
+{31 yes, 58 yes, 75 yes, 151 yes, 438 yes, 585 yes, 673 yes, 697 yes, 745 yes}
+{384 yes, 660 yes, 673 yes}
+{139 yes, 213 yes, 269 yes, 278 yes, 433 yes, 509 yes, 638 yes, 745 yes, 765 yes}
+{30 yes, 159 yes, 370 yes, 425 yes, 551 yes, 555 yes, 588 yes, 620 yes, 662 yes, 720 yes, 745 yes}
+{36 yes, 332 yes, 452 yes, 530 yes, 698 yes, 739 yes}
+{73 yes, 95 yes, 451 yes, 454 yes, 585 yes, 609 yes}
+{28 yes, 67 yes, 108 yes, 142 yes, 168 yes, 269 yes, 274 yes, 281 yes, 331 yes, 458 yes, 541 yes, 587 yes, 638 yes, 649 yes}
+{168 yes, 492 yes, 559 yes, 585 yes, 660 yes, 674 yes, 741 yes, 745 yes}
+{43 yes, 69 yes, 85 yes, 89 yes, 278 yes, 295 yes, 493 yes, 532 yes, 600 yes, 622 yes, 638 yes, 718 yes, 745 yes}
+{75 yes, 124 yes, 269 yes, 278 yes, 295 yes, 535 yes, 607 yes, 609 yes, 638 yes}
+{428 yes, 607 yes, 660 yes, 677 yes}
+{62 yes, 77 yes, 89 yes, 110 yes, 122 yes, 185 yes, 249 yes, 382 yes, 433 yes, 448 yes, 521 yes, 585 yes, 614 yes, 616 yes, 638 yes, 698 yes, 713 yes, 748 yes}
+{193 yes, 218 yes, 433 yes, 585 yes, 638 yes, 660 yes}
+{218 yes, 295 yes, 433 yes, 638 yes, 658 yes, 660 yes}
+{218 yes, 245 yes, 428 yes, 451 yes, 585 yes, 609 yes, 651 yes, 660 yes, 669 yes}
+{428 yes, 451 yes, 454 yes, 458 yes, 669 yes, 686 yes, 696 yes}
+{124 yes, 245 yes, 274 yes, 433 yes, 576 yes, 587 yes, 638 yes, 660 yes, 761 yes}
+{5 yes, 147 yes, 163 yes, 185 yes, 213 yes, 282 yes, 295 yes, 454 yes, 484 yes, 607 yes, 638 yes, 728 yes, 743 yes, 745 yes, 761 yes}
+{222 yes, 245 yes, 454 yes, 745 yes}
+{168 yes, 191 yes, 218 yes, 245 yes, 345 yes, 346 yes, 433 yes, 614 yes, 622 yes, 638 yes, 758 yes}
+{31 yes, 222 yes, 223 yes, 245 yes, 346 yes, 442 yes, 458 yes, 480 yes, 607 yes, 622 yes, 725 yes}
+{7 yes, 31 yes, 168 yes, 222 yes, 299 yes, 454 yes, 587 yes}
+{104 yes, 269 yes, 278 yes, 433 yes, 454 yes, 638 yes, 660 yes}
+{89 yes, 168 yes, 269 yes, 278 yes, 315 yes, 332 yes, 454 yes, 458 yes, 515 yes, 587 yes, 609 yes, 638 yes, 660 yes, 689 yes, 745 yes}
+{116 yes, 186 yes, 269 yes, 278 yes}
+{75 yes, 85 yes, 112 yes, 278 yes, 638 yes, 745 yes}
+{71 yes, 108 yes, 295 yes, 607 yes, 656 yes, 689 yes, 725 yes}
+{104 yes, 262 yes, 274 yes, 278 yes, 332 yes, 443 yes, 551 yes, 587 yes, 638 yes, 728 yes}
+{75 yes, 108 yes, 139 yes, 278 yes, 406 yes, 433 yes, 454 yes, 576 yes, 638 yes}
+{122 yes, 189 yes, 269 yes, 278 yes, 296 yes, 331 yes, 369 yes, 551 yes, 559 yes, 609 yes, 638 yes}
+{57 yes, 75 yes, 213 yes, 269 yes, 282 yes, 306 yes, 463 yes, 579 yes, 638 yes, 660 yes}
+{75 yes, 213 yes, 269 yes, 282 yes, 638 yes, 728 yes}
+{213 yes, 269 yes, 313 yes, 457 yes, 495 yes, 594 yes, 638 yes, 776 yes}
+{33 yes, 71 yes, 75 yes, 168 yes, 269 yes, 278 yes, 295 yes, 398 yes, 509 yes, 532 yes, 541 yes, 607 yes, 631 yes}
+{75 yes, 95 yes, 212 yes, 269 yes, 282 yes, 457 yes, 581 yes, 638 yes}
+{46 yes, 75 yes, 168 yes, 187 yes, 209 yes, 269 yes, 278 yes, 313 yes, 316 yes, 332 yes, 385 yes, 454 yes, 504 yes, 559 yes, 638 yes, 660 yes, 696 yes, 745 yes}
+{75 yes, 209 yes, 274 yes, 313 yes, 638 yes, 719 yes, 759 yes}
+{75 yes, 269 yes, 278 yes, 454 yes, 603 yes, 638 yes, 693 yes}
+{136 yes, 278 yes, 428 yes, 480 yes, 489 yes, 688 yes, 711 yes, 743 yes}
+{205 yes, 256 yes, 269 yes, 278 yes, 391 yes, 607 yes, 609 yes, 638 yes, 739 yes}
+{75 yes, 168 yes, 198 yes, 213 yes, 221 yes, 269 yes, 282 yes, 295 yes, 298 yes, 495 yes, 580 yes, 607 yes, 638 yes, 660 yes}
+{7 yes, 12 yes, 70 yes, 218 yes, 369 yes, 457 yes, 472 yes, 513 yes, 559 yes, 778 yes}
+{269 yes, 278 yes, 457 yes, 583 yes, 594 yes, 638 yes}
+{269 yes, 282 yes, 319 yes, 323 yes, 382 yes, 484 yes, 576 yes, 585 yes, 607 yes, 638 yes, 660 yes}
+{278 yes, 384 yes, 433 yes, 516 yes, 576 yes, 638 yes, 651 yes, 693 yes}
+{75 yes, 108 yes, 282 yes, 594 yes, 607 yes, 638 yes}
+{269 yes, 278 yes, 431 yes, 457 yes, 532 yes, 561 yes, 581 yes, 585 yes, 594 yes, 631 yes, 638 yes, 695 yes}
+{451 yes, 541 yes, 600 yes, 761 yes}
+{451 yes, 457 yes, 600 yes, 607 yes, 609 yes}
+{75 yes, 85 yes, 229 yes, 282 yes, 306 yes, 463 yes, 638 yes, 732 yes}
+{157 yes, 168 yes, 229 yes, 269 yes, 433 yes, 607 yes, 660 yes, 683 yes, 745 yes}
+{218 yes, 245 yes, 472 yes, 506 yes, 728 yes}
+{12 yes, 274 yes, 304 yes, 369 yes, 560 yes, 561 yes, 638 yes, 660 yes, 778 yes, 781 yes}
+{108 yes, 167 yes, 269 yes, 282 yes, 384 yes, 497 yes, 587 yes, 638 yes}
+{108 yes, 191 yes, 207 yes, 382 yes, 585 yes}
+{108 yes, 202 yes, 306 yes, 332 yes, 600 yes}
+{168 yes, 278 yes, 408 yes, 433 yes, 585 yes, 638 yes, 660 yes, 745 yes}
+{67 yes, 638 yes}
+{433 yes, 576 yes, 638 yes, 745 yes}
+{151 yes, 344 yes, 430 yes, 573 yes, 663 yes, 685 yes, 745 yes}
+{61 yes, 110 yes, 218 yes, 382 yes, 433 yes, 484 yes, 585 yes, 638 yes, 660 yes, 692 yes, 745 yes}
+{180 yes, 398 yes, 433 yes, 585 yes, 587 yes, 607 yes, 609 yes, 708 yes, 728 yes}
+{57 yes, 136 yes, 269 yes, 278 yes, 480 yes, 607 yes, 638 yes}
+{190 yes, 269 yes, 278 yes, 594 yes, 607 yes, 660 yes, 675 yes, 711 yes}
+{17 yes, 362 yes, 450 yes, 594 yes, 638 yes, 711 yes, 743 yes}
+{131 yes, 183 yes, 218 yes, 458 yes, 489 yes, 660 yes, 708 yes, 760 yes}
+{451 yes}
+{96 yes, 282 yes, 400 yes, 454 yes, 458 yes, 484 yes, 559 yes, 585 yes, 638 yes, 660 yes, 702 yes}
+{222 yes, 245 yes, 346 yes}
+{2 yes, 33 yes, 89 yes, 122 yes, 191 yes, 442 yes, 585 yes, 617 yes, 621 yes, 631 yes, 660 yes, 728 yes}
+{587 yes, 607 yes, 660 yes, 728 yes, 764 yes}
+{52 yes, 305 yes, 590 yes, 669 yes}
+{81 yes, 89 yes, 91 yes, 161 yes, 269 yes, 558 yes, 559 yes, 585 yes, 651 yes, 745 yes}
+{362 yes, 433 yes, 609 yes, 618 yes, 623 yes, 681 yes, 683 yes}
+{89 yes, 189 yes, 433 yes, 451 yes, 489 yes, 532 yes, 541 yes, 594 yes, 669 yes, 744 yes, 745 yes, 766 yes, 779 yes}
+{223 yes, 245 yes, 454 yes, 458 yes, 585 yes, 673 yes, 745 yes, 786 yes}
+{22 yes, 89 yes, 180 yes, 451 yes, 529 yes, 602 yes, 618 yes, 638 yes, 744 yes, 745 yes}
+{22 yes, 89 yes, 180 yes, 295 yes, 357 yes, 451 yes, 489 yes, 501 yes, 638 yes, 660 yes, 669 yes, 743 yes}
+{240 yes, 373 yes, 396 yes, 594 yes, 638 yes, 698 yes, 730 yes, 738 yes}
+{81 yes, 89 yes, 269 yes, 458 yes, 595 yes, 607 yes, 633 yes, 638 yes, 660 yes, 696 yes, 728 yes, 732 yes}
+{278 yes, 455 yes, 559 yes, 585 yes, 638 yes, 660 yes, 745 yes}
+{40 yes, 213 yes, 223 yes, 559 yes, 609 yes, 612 yes, 638 yes, 660 yes}
+{89 yes, 219 yes, 269 yes, 278 yes, 295 yes, 433 yes, 607 yes, 609 yes, 638 yes, 743 yes}
+{104 yes, 180 yes, 274 yes, 414 yes, 428 yes, 744 yes}
+{75 yes, 180 yes, 542 yes, 593 yes, 602 yes, 696 yes, 728 yes, 744 yes, 745 yes}
+{65 yes, 108 yes, 218 yes, 295 yes, 412 yes, 480 yes, 484 yes, 576 yes, 585 yes, 689 yes, 744 yes}
+{269 yes, 428 yes, 559 yes, 638 yes, 711 yes, 728 yes, 745 yes}
+{78 yes, 175 yes, 269 yes, 575 yes, 744 yes}
+{269 yes, 428 yes, 457 yes, 484 yes, 742 yes}
+{78 yes, 502 yes, 585 yes, 660 yes, 742 yes}
+{561 yes, 607 yes, 638 yes, 660 yes, 743 yes}
+{428 yes, 581 yes, 638 yes, 743 yes}
+{400 yes, 594 yes, 638 yes, 716 yes, 742 yes}
+{22 yes, 185 yes, 489 yes, 561 yes, 577 yes, 638 yes, 728 yes, 744 yes}
+{5 yes, 57 yes, 609 yes, 638 yes, 743 yes}
+{176 yes, 594 yes, 622 yes, 742 yes}
+{214 yes}
+{428 yes, 487 yes, 708 yes, 744 yes}
+{96 yes, 233 yes, 410 yes, 489 yes, 622 yes}
+{89 yes, 269 yes, 278 yes, 295 yes, 391 yes, 419 yes, 428 yes, 448 yes, 533 yes, 566 yes, 602 yes, 612 yes, 681 yes, 683 yes, 695 yes, 743 yes}
+{638 yes, 682 yes, 747 yes, 756 yes}
+{332 yes, 428 yes, 744 yes}
+{78 yes, 191 yes, 295 yes, 398 yes, 600 yes, 774 yes}
+{71 yes, 122 yes, 269 yes, 278 yes, 433 yes, 532 yes, 549 yes, 594 yes, 627 yes, 660 yes}
+{433 yes, 451 yes, 607 yes, 614 yes, 638 yes, 669 yes, 673 yes}
+{89 yes, 278 yes, 295 yes, 305 yes, 319 yes, 380 yes, 448 yes, 454 yes, 458 yes, 468 yes, 470 yes, 484 yes, 531 yes, 560 yes, 585 yes, 587 yes, 593 yes, 594 yes, 638 yes, 660 yes, 728 yes}
+{81 yes, 86 yes, 89 yes, 157 yes, 306 yes, 369 yes, 470 yes, 504 yes, 614 yes, 638 yes, 778 yes}
+{81 yes, 105 yes, 113 yes, 137 yes, 274 yes, 298 yes, 458 yes, 638 yes, 778 yes}
+{89 yes, 135 yes, 278 yes, 369 yes, 433 yes, 448 yes, 480 yes, 506 yes, 585 yes, 594 yes, 607 yes, 638 yes, 679 yes, 778 yes}
+{34 yes, 122 yes, 269 yes, 295 yes, 433 yes, 638 yes, 660 yes}
+{108 yes, 118 yes, 295 yes, 433 yes, 576 yes, 638 yes, 660 yes}
+{104 yes, 269 yes, 278 yes, 332 yes, 433 yes, 576 yes, 638 yes, 763 yes}
+{63 yes, 213 yes, 282 yes, 384 yes, 594 yes, 638 yes, 660 yes, 698 yes}
+{101 yes, 423 yes, 477 yes}
+{438 yes, 585 yes, 660 yes}
+{53 yes, 97 yes, 180 yes, 196 yes, 230 yes, 306 yes, 355 yes, 385 yes, 389 yes, 451 yes, 585 yes, 666 yes, 672 yes, 699 yes}
+{108 yes, 118 yes, 122 yes, 221 yes, 278 yes, 433 yes, 576 yes, 585 yes, 594 yes, 607 yes, 627 yes, 638 yes, 660 yes, 728 yes}
+{61 yes, 159 yes, 433 yes, 451 yes, 585 yes, 594 yes, 614 yes, 633 yes, 638 yes, 647 yes, 660 yes, 698 yes}
+{118 yes, 433 yes, 594 yes, 622 yes, 633 yes, 638 yes, 660 yes}
